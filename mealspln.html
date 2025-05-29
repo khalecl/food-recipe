@@ -1342,6 +1342,7 @@
 
 <script>
 // Global Variables
+// Global Variables (unchanged, included for context)
 let currentWeekOffset = 0;
 let mealPlan = {};
 let selectedMealSlot = null;
@@ -1351,14 +1352,14 @@ let activeFilters = new Set();
 let userRecipes = JSON.parse(localStorage.getItem('userRecipes')) || [];
 let mealsDatabase = [];
 
-// Common Egyptian ingredients
+// Common Egyptian ingredients (unchanged)
 const egyptianIngredients = [
     "fava beans", "lentils", "egyptian rice", "okra", "molokhia leaves", "eggplant",
     "zucchini", "bell peppers", "garlic", "onions", "cumin", "coriander", "dried mint",
     "cinnamon", "cardamom", "bay leaves", "olive oil", "ghee", "local cheeses", "aish baladi"
 ];
 
-// Language translations
+// Language translations (unchanged)
 const translations = {
     en: {
         title: "Smart Meal Planner",
@@ -1376,18 +1377,23 @@ const translations = {
     }
 };
 
-// Fixed Fetch Meals Database Function
-// Fixed Fetch Meals Database Function
+// Modified Fetch Meals Database Function
+
+
 async function fetchMealsDatabase() {
     try {
-        const url = 'https://khalecl.github.io/food-recipe/reciep.json';
+        // Determine the JSON file based on the current language
+        const lang = document.getElementById('language-select')?.value || 'en';
+        const url = lang === 'ar' 
+            ? 'https://khalecl.github.io/food-recipe/reciep_AR.json'
+            : 'https://khalecl.github.io/food-recipe/reciep.json';
         console.log('Fetching from URL:', url);
-        
+
         const response = await fetch(url);
         if (!response.ok) {
             throw new Error(`Failed to fetch recipes: ${response.status} ${response.statusText}`);
         }
-        
+
         const data = await response.json();
         console.log('Raw JSON data received:', data);
         console.log('Data type:', typeof data);
@@ -1401,7 +1407,6 @@ async function fetchMealsDatabase() {
 
         // Handle different JSON structures
         let recipesArray = [];
-        
         if (Array.isArray(data)) {
             recipesArray = data;
         } else if (data.recipes && Array.isArray(data.recipes)) {
@@ -1409,12 +1414,10 @@ async function fetchMealsDatabase() {
         } else if (data.meals && Array.isArray(data.meals)) {
             recipesArray = data.meals;
         } else if (typeof data === 'object') {
-            // If it's an object, try to find an array property
             const arrayKey = Object.keys(data).find(key => Array.isArray(data[key]));
             if (arrayKey) {
                 recipesArray = data[arrayKey];
             } else {
-                // If it's a single object, wrap it in an array
                 recipesArray = [data];
             }
         }
@@ -1426,25 +1429,18 @@ async function fetchMealsDatabase() {
             throw new Error('No valid recipe array found in JSON data');
         }
 
-        // Handle the special CSV-like JSON structure
+        // Process recipes
         mealsDatabase = recipesArray.map((meal, index) => {
             console.log(`Processing meal ${index + 1}:`, meal);
-            
-            // Extract data from the unusual JSON structure
+
             let mealData = {};
-            
-            // Get the meal_id from the key
             const headerKey = Object.keys(meal).find(key => key.includes('meal_id'));
             if (headerKey) {
                 mealData.meal_id = meal[headerKey];
             }
-            
-            // Get the rest of the data from __parsed_extra array
+
             if (meal.__parsed_extra && Array.isArray(meal.__parsed_extra)) {
                 const extraData = meal.__parsed_extra;
-                
-                // Map array indices to data based on CSV header structure:
-                // type, title, ingredient_name, quantity, unit, local, cooking_time, cooking_steps, tags, healthier_alternative, cheaper_alternative
                 mealData.type = extraData[0] ? extraData[0].trim() : 'Main Dish';
                 mealData.title = extraData[1] ? extraData[1].trim() : `Recipe ${index + 1}`;
                 mealData.ingredient_names = extraData[2] ? extraData[2].trim() : '';
@@ -1457,18 +1453,17 @@ async function fetchMealsDatabase() {
                 mealData.healthier_alternative = extraData[9] ? extraData[9].trim() : 'No healthier alternative provided';
                 mealData.cheaper_alternative = extraData[10] ? extraData[10].trim() : 'No cheaper alternative provided';
             }
-            
+
             console.log('Extracted meal data:', mealData);
-            
-            // Process ingredients from comma-separated strings
+
+            // Process ingredients
             let processedIngredients = [];
             if (mealData.ingredient_names && mealData.quantities && mealData.units && mealData.local_flags) {
                 const names = mealData.ingredient_names.split(',').map(s => s.trim());
                 const quantities = mealData.quantities.split(',').map(s => s.trim());
                 const units = mealData.units.split(',').map(s => s.trim());
                 const localFlags = mealData.local_flags.split(',').map(s => s.trim().toLowerCase() === 'yes');
-                
-                // Create ingredient objects
+
                 for (let i = 0; i < names.length; i++) {
                     if (names[i]) {
                         processedIngredients.push({
@@ -1480,28 +1475,26 @@ async function fetchMealsDatabase() {
                     }
                 }
             }
-            
+
             // Process cooking steps
             let processedSteps = [];
             if (mealData.cooking_steps) {
-                // Split by numbered steps (1., 2., 3., etc.)
                 processedSteps = mealData.cooking_steps
                     .split(/\d+\.\s*/)
                     .map(step => step.trim())
                     .filter(step => step.length > 0);
             }
-            
             if (processedSteps.length === 0) {
                 processedSteps = ['No cooking steps provided'];
             }
-            
+
             // Process tags
             let processedTags = [];
             if (mealData.tags) {
                 processedTags = mealData.tags.split(',').map(tag => tag.trim()).filter(tag => tag);
             }
-            
-            // Extract cooking time as number
+
+            // Extract cooking time
             let cookingTimeMinutes = 30;
             if (mealData.cooking_time) {
                 const timeMatch = mealData.cooking_time.match(/(\d+)/);
@@ -1509,8 +1502,7 @@ async function fetchMealsDatabase() {
                     cookingTimeMinutes = parseInt(timeMatch[1]);
                 }
             }
-            
-            // Create the mapped meal object
+
             const mappedMeal = {
                 id: parseInt(mealData.meal_id) || index + 1,
                 title: mealData.title || `Recipe ${index + 1}`,
@@ -1527,15 +1519,17 @@ async function fetchMealsDatabase() {
 
             console.log(`Successfully mapped meal ${index + 1}:`, mappedMeal);
             return mappedMeal;
-        }).filter(meal => meal && meal.title && !meal.title.includes('Recipe ')); // Filter out generic recipe names
+        }).filter(meal => meal && meal.title && !meal.title.includes('Recipe '));
 
         console.log(`Successfully processed ${mealsDatabase.length} meals`);
         console.log('Final meals database:', mealsDatabase);
 
-        // Verify we have valid meals
         if (mealsDatabase.length === 0) {
             throw new Error('No valid meals after processing');
         }
+
+        // Update meal plan and favorites to match new database
+        updateMealPlanAndFavorites();
 
         // Initialize the app with the loaded data
         initializeApp();
@@ -1544,10 +1538,10 @@ async function fetchMealsDatabase() {
     } catch (error) {
         console.error('Detailed error in fetchMealsDatabase:', error);
         console.error('Error stack:', error.stack);
-        
+
         alert(`Failed to load meal data: ${error.message}\nUsing fallback database. Check console for details.`);
-        
-        // Enhanced fallback database
+
+        // Fallback database (unchanged)
         mealsDatabase = [
             {
                 id: 1,
@@ -1623,12 +1617,12 @@ async function fetchMealsDatabase() {
                 }
             }
         ];
-        
+
         console.log('Using fallback database with', mealsDatabase.length, 'meals');
+        updateMealPlanAndFavorites();
         initializeApp();
     }
 }
-
 // Initialize App
 function initializeApp() {
     loadSettings();
@@ -1640,6 +1634,7 @@ function initializeApp() {
 }
 
 document.addEventListener('DOMContentLoaded', fetchMealsDatabase);
+
 
 // Theme Management
 function toggleTheme() {
@@ -1656,7 +1651,29 @@ function toggleTheme() {
         localStorage.setItem('theme', 'light');
     }
 }
+// New function to update meal plan and favorites after database reload
+function updateMealPlanAndFavorites() {
+    // Update meal plan
+    const updatedMealPlan = {};
+    for (const [key, meal] of Object.entries(mealPlan)) {
+        const matchingMeal = mealsDatabase.find(m => m.id === meal.id);
+        if (matchingMeal) {
+            updatedMealPlan[key] = matchingMeal;
+        }
+    }
+    mealPlan = updatedMealPlan;
+    saveMealPlan();
 
+    // Update favorites
+    const updatedFavorites = new Set();
+    for (const mealId of favoriteMeals) {
+        if (mealsDatabase.some(meal => meal.id === mealId)) {
+            updatedFavorites.add(mealId);
+        }
+    }
+    favoriteMeals = updatedFavorites;
+    saveFavorites();
+}
 // Language Management
 function setLanguage() {
     const lang = document.getElementById('language-select').value;
@@ -1665,6 +1682,9 @@ function setLanguage() {
         label.textContent = translations[lang][["planner", "meals", "community", "settings"][index]];
     });
     localStorage.setItem('language', lang);
+
+    // Reload meals database when language changes
+    fetchMealsDatabase();
 }
 
 // Dietary Preferences
