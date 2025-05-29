@@ -504,5 +504,7 @@
     "__parsed_extra": ["Coriander", "Flour", "Egg", "Cumin", "Yogurt", "Oil", "0.25 cup", "0.25 cup", "1", "1 tsp", "as needed", "2 tbsp", "cup", "cup", "whole", "tsp", "as needed", "tbsp", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"]
   },
   {
-    "meal_id;type;title;ingredient_name;quantity;quantity;unit;local;quantity;local;quantity;local;quantity;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "127;Vegetarian;Spiced Roasted Pumpkin with Tahini;Pumpkin;500 g;g;Yes;Yes;40 min;1. Roast 500 g pumpkin with 2 tbsp olive oil and 1 tsp cumin at 400°F (200°C) for 25–30 min. min 2. 2. Mix 0.25 cup tahini with 2 tbsp lemon juice and 2 tbsp water. 3. Drizzle over pumpkin. 4. Serve with parsley.;Vegetarian, Side Dish;Reduce tahini;Use yogurt instead of tahini",
-    "__parsed_extra": ["Tahini", "Cumin", "Lemon", "juice", "Olive oil", "Parsley", "0.25 cup", "1 tsp", "2 tbsp", "2 tbsp", "as needed", "cup", "tsp", "tbsp", "tbsp", "as needed", "Yes", "Yes", "Yes", "Yes", "Yes"]}]
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "127;Vegetarian;Spiced Roasted Pumpkin with Tahini;Pumpkin;500;g;Yes;40 min;1. Roast 500 g pumpkin with 2 tbsp olive oil and 1 tsp cumin at 400°F (200°C) for 25–30 min. 2. Mix 0.25 cup tahini with 2 tbsp lemon juice and 2 tbsp water. 3. Drizzle over pumpkin. 4. Serve with parsley.;Vegetarian, Side Dish;Reduce tahini;Use yogurt instead of tahini",
+    "__parsed_extra": ["Tahini", "Cumin", "Lemon juice", "Olive oil", "Parsley", "0.25 cup", "1 tsp", "2 tbsp", "2 tbsp", "as needed", "cup", "tsp", "tbsp", "tbsp", "as needed", "Yes", "Yes", "Yes", "Yes"]
+  }
+]
