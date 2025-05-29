@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV to JSON Converter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 1200px;
+            animation: slideIn 0.5s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        h1 {
+            color: #2d3748;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .input-section {
+            margin-bottom: 30px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: #4a5568;
+            font-size: 1.1rem;
+        }
+        
+        .file-input-wrapper {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        .file-input {
+            position: absolute;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+        
+        .file-input-display {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            border: 3px dashed #cbd5e0;
+            border-radius: 12px;
+            background: #f7fafc;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+            color: #718096;
+        }
+        
+        .file-input-display:hover {
+            border-color: #667eea;
+            background: #edf2f7;
+            transform: translateY(-2px);
+        }
+        
+        .file-selected {
+            border-color: #48bb78;
+            background: #f0fff4;
+            color: #2f855a;
+        }
+        
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            resize: vertical;
+            transition: border-color 0.3s ease;
+            background: #fafafa;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .convert-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            flex: 1;
+            justify-content: center;
+        }
+        
+        .convert-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .convert-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
+        .copy-btn, .download-btn {
+            background: #48bb78;
+            color: white;
+            min-width: 120px;
+            justify-content: center;
+        }
+        
+        .copy-btn:hover, .download-btn:hover {
+            background: #38a169;
+            transform: translateY(-2px);
+        }
+        
+        .clear-btn {
+            background: #ed8936;
+            color: white;
+            min-width: 100px;
+            justify-content: center;
+        }
+        
+        .clear-btn:hover {
+            background: #dd6b20;
+            transform: translateY(-2px);
+        }
+        
+        .output-section {
+            margin-top: 30px;
+        }
+        
+        .json-output {
+            background: #1a202c;
+            color: #e2e8f0;
+            border-radius: 12px;
+            padding: 20px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-height: 400px;
+            overflow-y: auto;
+            border: 2px solid #2d3748;
+        }
+        
+        .status {
+            padding: 12px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-weight: 500;
+            display: none;
+        }
+        
+        .status.success {
+            background: #c6f6d5;
+            color: #2f855a;
+            border: 1px solid #9ae6b4;
+        }
+        
+        .status.error {
+            background: #fed7d7;
+            color: #c53030;
+            border: 1px solid #feb2b2;
+        }
+        
+        .icon {
+            width: 20px;
+            height: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .button-group {
+                flex-direction: column;
+            }
+            
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔄 CSV to JSON Converter</h1>
+        
+        <div class="input-section">
+            <label>Upload CSV File or Paste CSV Data:</label>
+            
+            <div class="file-input-wrapper">
+                <input type="file" id="csvFile" class="file-input" accept=".csv,.txt">
+                <div class="file-input-display" id="fileDisplay">
+                    📁 Choose CSV file or drag & drop here
+                </div>
+            </div>
+            
+            <div style="margin: 20px 0; text-align: center; color: #718096; font-weight: 500;">
+                OR
+            </div>
+            
+            <textarea id="csvInput" placeholder="Paste your CSV data here...
+
+Example format:
+meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative
+1;Grains & Legumes;Ful Medames with Olive Oil, Salt, and Cumin;Fava beans, Olive oil, Cumin, Salt, Lemon;2 cups, 2 tbsp, 1 tsp, 1 tsp, 1;cups, tbsp, tsp, tsp, whole;Yes, Yes, Yes, Yes, Yes;30 min;1. Soak and boil fava beans until tender (20 min). 2. Mash with olive oil, cumin, salt, and lemon juice. 3. Serve warm with baladi bread.;Breakfast, Vegetarian, Street Food;Use less olive oil or vegetable broth;Use sunflower oil instead of olive oil"></textarea>
+        </div>
+        
+        <div class="button-group">
+            <button class="convert-btn" id="convertBtn">
+                <span>⚡</span> Convert to JSON
+            </button>
+            <button class="copy-btn" id="copyBtn" style="display: none;">
+                <span>📋</span> Copy JSON
+            </button>
+            <button class="download-btn" id="downloadBtn" style="display: none;">
+                <span>💾</span> Download
+            </button>
+            <button class="clear-btn" id="clearBtn">
+                <span>🗑️</span> Clear
+            </button>
+        </div>
+        
+        <div class="status" id="status"></div>
+        
+        <div class="output-section" style="display: none;" id="outputSection">
+            <label>JSON Output:</label>
+            <div class="json-output" id="jsonOutput"></div>
+        </div>
+    </div>
+
+    <script>
+        let convertedJSON = '';
+        
+        // File input handling
+        const fileInput = document.getElementById('csvFile');
+        const fileDisplay = document.getElementById('fileDisplay');
+        const csvInput = document.getElementById('csvInput');
+        
+        fileInput.addEventListener('change', handleFileSelect);
+        fileDisplay.addEventListener('dragover', handleDragOver);
+        fileDisplay.addEventListener('drop', handleDrop);
+        
+        function handleFileSelect(event) {
+            const file = event.target.files[0];
+            if (file) {
+                readFile(file);
+                fileDisplay.textContent = `📄 ${file.name}`;
+                fileDisplay.classList.add('file-selected');
+            }
+        }
+        
+        function handleDragOver(event) {
+            event.preventDefault();
+            fileDisplay.style.borderColor = '#667eea';
+        }
+        
+        function handleDrop(event) {
+            event.preventDefault();
+            fileDisplay.style.borderColor = '#cbd5e0';
+            
+            const files = event.dataTransfer.files;
+            if (files.length > 0) {
+                const file = files[0];
+                readFile(file);
+                fileDisplay.textContent = `📄 ${file.name}`;
+                fileDisplay.classList.add('file-selected');
+                fileInput.files = files;
+            }
+        }
+        
+        function readFile(file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                csvInput.value = e.target.result;
+            };
+            reader.readAsText(file);
+        }
+        
+        // Convert CSV to JSON
+        document.getElementById('convertBtn').addEventListener('click', convertCSVToJSON);
+        
+        function convertCSVToJSON() {
+            const csvData = csvInput.value.trim();
+            
+            if (!csvData) {
+                showStatus('Please provide CSV data to convert.', 'error');
+                return;
+            }
+            
+            try {
+                const lines = csvData.split('\n').filter(line => line.trim());
+                const headers = lines[0].split(';');
+                const mainKey = headers.join(';');
+                
+                const jsonArray = [];
+                
+                for (let i = 1; i < lines.length; i++) {
+                    const values = lines[i].split(';');
+                    
+                    if (values.length > 0) {
+                        const mainValue = values[0] || '';
+                        const extraValues = values.slice(1).map(val => ` ${val}`);
+                        
+                        const jsonObject = {};
+                        jsonObject[mainKey] = mainValue;
+                        jsonObject['__parsed_extra'] = extraValues;
+                        
+                        jsonArray.push(jsonObject);
+                    }
+                }
+                
+                convertedJSON = JSON.stringify(jsonArray, null, 2);
+                
+                document.getElementById('jsonOutput').textContent = convertedJSON;
+                document.getElementById('outputSection').style.display = 'block';
+                document.getElementById('copyBtn').style.display = 'flex';
+                document.getElementById('downloadBtn').style.display = 'flex';
+                
+                showStatus(`Successfully converted ${jsonArray.length} rows to JSON!`, 'success');
+                
+            } catch (error) {
+                showStatus(`Error converting CSV: ${error.message}`, 'error');
+            }
+        }
+        
+        // Copy to clipboard
+        document.getElementById('copyBtn').addEventListener('click', function() {
+            navigator.clipboard.writeText(convertedJSON).then(function() {
+                showStatus('JSON copied to clipboard!', 'success');
+            }).catch(function() {
+                showStatus('Failed to copy to clipboard.', 'error');
+            });
+        });
+        
+        // Download JSON file
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            const blob = new Blob([convertedJSON], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'converted_data.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            showStatus('JSON file downloaded!', 'success');
+        });
+        
+        // Clear all
+        document.getElementById('clearBtn').addEventListener('click', function() {
+            csvInput.value = '';
+            document.getElementById('jsonOutput').textContent = '';
+            document.getElementById('outputSection').style.display = 'none';
+            document.getElementById('copyBtn').style.display = 'none';
+            document.getElementById('downloadBtn').style.display = 'none';
+            fileInput.value = '';
+            fileDisplay.textContent = '📁 Choose CSV file or drag & drop here';
+            fileDisplay.classList.remove('file-selected');
+            hideStatus();
+            convertedJSON = '';
+        });
+        
+        function showStatus(message, type) {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.className = `status ${type}`;
+            status.style.display = 'block';
+            
+            if (type === 'success') {
+                setTimeout(hideStatus, 3000);
+            }
+        }
+        
+        function hideStatus() {
+            document.getElementById('status').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
