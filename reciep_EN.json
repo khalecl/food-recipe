@@ -1,0 +1,508 @@
+[{
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "1;Grains & Legumes;Ful Medames with Olive Oil, Salt, and Cumin;Fava beans;2 cups;cups;Yes;30 min;1. Soak and boil 2 cups fava beans until soft (or use canned). 2. Mash lightly, add 1 tsp salt, 1 tsp cumin, juice of 1 lemon, and 2 tbsp olive oil. 3. Heat for 5 min. Serve with bread.;Breakfast, Vegetarian, Street Food;Use less olive oil or vegetable broth;Use sunflower oil instead of olive oil",
+    "__parsed_extra": ["Salt", "Olive oil", "Cumin", "Lemon", "1 tsp", "2 tbsp", "1 tsp", "1", "tsp", "tbsp", "tsp", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "2;Grains & Legumes;Ful Medames with Lemon and Chili;Fava beans;2 cups;cups;Yes;30 min;1. Cook 2 cups fava beans. 2. Mash, add 1 tsp chili powder, 1 tsp salt, 2 tbsp lemon juice, and 2 tbsp olive oil. 3. Heat for 5 min. Serve with flatbread.;Breakfast, Spicy, Vegetarian;Use fresh chili for nutrients;Use vegetable oil instead of olive oil",
+    "__parsed_extra": ["Lemon juice", "Chili powder", "Olive oil", "Salt", "2 tbsp", "1 tsp", "2 tbsp", "1 tsp", "tbsp", "tsp", "tbsp", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "3;Grains & Legumes;Ful Medames with Paprika and Fresh Herbs;Fava beans;2 cups;cups;Yes;30 min;1. Cook 2 cups fava beans. 2. Mash, mix in 1 tsp paprika, 0.25 cup parsley, 0.25 cup coriander, and 2 tbsp olive oil. 3. Heat for 5 min. Serve with bread.;Breakfast, Vegetarian;Reduce oil, add more herbs;Use dried herbs instead of fresh",
+    "__parsed_extra": ["Paprika", "Parsley", "Coriander", "Olive oil", "1 tsp", "0.25 cup", "0.25 cup", "2 tbsp", "tsp", "cup", "cup", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "4;Grains & Legumes;Ful Medames with Butter and Garlic;Fava beans;2 cups;cups;Yes;35 min;1. Cook 2 cups fava beans. 2. Sauté 3 minced garlic cloves in 2 tbsp butter. 3. Mash beans, add garlic-butter, 1 tsp cumin, and 1 tsp salt. Heat for 5 min. Serve with pita.;Breakfast, Vegetarian;Use olive oil instead of butter;Use margarine instead of butter",
+    "__parsed_extra": ["Butter", "Garlic", "Cumin", "Salt", "2 tbsp", "3 cloves", "1 tsp", "1 tsp", "tbsp", "cloves", "tsp", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "5;Grains & Legumes;Ful Medames with Ghee and Cumin;Fava beans;2 cups;cups;Yes;30 min;1. Cook 2 cups fava beans. 2. Mash, add 1 tsp cumin, 1 tsp salt, juice of 1 lemon, and 2 tbsp melted ghee. 3. Heat for 5 min. Serve with bread.;Breakfast, Vegetarian;Use olive oil instead of ghee;Use vegetable oil instead of ghee",
+    "__parsed_extra": ["Ghee", "Cumin", "Salt", "Lemon", "2 tbsp", "1 tsp", "1 tsp", "1", "tbsp", "tsp", "tsp", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "6;Grains & Legumes;Ful Medames with Linseed Oil and Onions;Fava beans;2 cups;cups;Yes;35 min;1. Cook 2 cups fava beans. 2. Sauté 1 sliced onion in 2 tbsp linseed oil until golden. 3. Mash beans, add onions, 1 tsp cumin, and 1 tsp salt. Heat for 5 min. Serve with bread.;Breakfast, Vegetarian;Use less oil;Use vegetable oil instead of linseed oil",
+    "__parsed_extra": ["Linseed oil", "Onion", "Cumin", "Salt", "2 tbsp", "1", "1 tsp", "1 tsp", "tbsp", "whole", "tsp", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "7;Grains & Legumes;Ful Medames Topped with Diced Tomatoes and Cucumbers;Fava beans;2 cups;cups;Yes;30 min;1. Cook 2 cups fava beans. 2. Mash, add juice of 1 lemon and 2 tbsp olive oil. Heat for 5 min. 3. Top with 2 diced tomatoes and 1 diced cucumber. Serve with bread.;Breakfast, Vegetarian;Reduce oil;Omit olive oil, use lemon juice only",
+    "__parsed_extra": ["Tomatoes", "Cucumbers", "Olive oil", "Lemon", "2", "1", "2 tbsp", "1", "whole", "whole", "tbsp", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "8;Grains & Legumes;Ful Medames with Fried Egg and Tahini;Fava beans;2 cups;cups;Yes;35 min;1. Cook 2 cups fava beans. 2. Mash, add 1 tsp cumin and 2 tbsp tahini. Heat for 5 min. 3. Fry 2 eggs in 1 tbsp olive oil. Top beans with eggs. Serve with bread.;Breakfast, Protein;Use poached eggs;Use boiled eggs instead of fried",
+    "__parsed_extra": ["Eggs", "Tahini", "Olive oil", "Cumin", "2", "2 tbsp", "1 tbsp", "1 tsp", "whole", "tbsp", "tbsp", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "9;Grains & Legumes;Ful Medames with Boiled Egg and Roomi Cheese;Fava beans;2 cups;cups;Yes;35 min;1. Cook 2 cups fava beans. 2. Boil 2 eggs, peel, and slice. 3. Mash beans, add 1 tsp salt and 2 tbsp olive oil. Heat for 5 min. 4. Top with eggs and 0.25 cup Roomi cheese. Serve with bread.;Breakfast, Protein;Use low-fat cheese;Use feta instead of Roomi cheese",
+    "__parsed_extra": ["Eggs", "Roomi cheese", "Olive oil", "Salt", "2", "0.25 cup", "2 tbsp", "1 tsp", "whole", "cup", "tbsp", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "10;Grains & Legumes;Ful Medames with Omelet and Sujuk;Fava beans;2 cups;cups;Yes;40 min;1. Cook 2 cups fava beans. 2. Sauté 100 g sujuk and 2 minced garlic cloves in 1 tbsp olive oil. 3. Beat 3 eggs, add to sujuk, and cook omelet. 4. Mash beans, add 1 tbsp olive oil, heat for 5 min. Top with omelet. Serve with bread.;Breakfast, Spicy;Use turkey sujuk;Use minced beef instead of sujuk",
+    "__parsed_extra": ["Eggs", "Sujuk", "Olive oil", "Garlic", "3", "100 g", "2 tbsp", "2 cloves", "whole", "g", "tbsp", "cloves", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "11;Grains & Legumes;Ful Medames with Pastirma and Garlic-Vinegar Sauce;Fava beans;2 cups;cups;Yes;35 min;1. Cook 2 cups fava beans. 2. Mix 2 minced garlic cloves, 2 tbsp vinegar, and 1 tbsp olive oil for sauce. 3. Mash beans, add 1 tbsp olive oil, heat for 5 min. 4. Top with 100 g pastirma and sauce. Serve with bread.;Breakfast, Savory;Use less pastirma;Use bacon instead of pastirma",
+    "__parsed_extra": ["Pastirma", "Garlic", "Vinegar", "Olive oil", "100 g", "2 cloves", "2 tbsp", "2 tbsp", "g", "cloves", "tbsp", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "12;Grains & Legumes;Alexandrian Ful Medames (Spicy with Peppers);Fava beans;2 cups;cups;Yes;35 min;1. Cook 2 cups fava beans. 2. Sauté 1 chopped green pepper and 2 minced garlic cloves in 2 tbsp olive oil. 3. Mash beans, add pepper-garlic mix and 1 tsp chili powder. Heat for 5 min. Serve with bread.;Breakfast, Spicy, Alexandrian;Bake peppers instead of frying;Omit peppers, use chili flakes",
+    "__parsed_extra": ["Green peppers", "Chili powder", "Olive oil", "Garlic", "1", "1 tsp", "2 tbsp", "2 cloves", "whole", "tsp", "tbsp", "cloves", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "13;Grains & Legumes;Sa'eedi Ful Medames (Rich Broth with Tomato);Fava beans;2 cups;cups;Yes;40 min;1. Simmer 2 cups fava beans in water to make broth. 2. Sauté 1 chopped onion and 2 chopped tomatoes in 2 tbsp olive oil. 3. Add to beans with 1 tsp cumin. Simmer 10 min. Serve with bread.;Breakfast, Upper Egyptian;Reduce oil;Use vegetable oil instead of olive oil",
+    "__parsed_extra": ["Tomato", "Onion", "Olive oil", "Cumin", "2", "1", "2 tbsp", "1 tsp", "whole", "whole", "tbsp", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "14;Grains & Legumes;Damietta Ful Medames with Yogurt;Fava beans;2 cups;cups;Yes;30 min;1. Cook 2 cups fava beans. 2. Mash, add 1 tsp salt, heat for 5 min. 3. Mix 0.5 cup yogurt, 2 minced garlic cloves, and juice of 1 lemon. 4. Top beans with yogurt mix. Serve with bread.;Breakfast, Vegetarian, Damietta;Use low-fat yogurt;Use laban rayeb instead of yogurt",
+    "__parsed_extra": ["Yogurt", "Garlic", "Lemon", "Salt", "0.5 cup", "2 cloves", "1", "1 tsp", "cup", "cloves", "whole", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "15;Grains & Legumes;Ful Medames with Pomegranate Seeds and Mint;Fava beans;2 cups;cups;Yes;30 min;1. Cook 2 cups fava beans. 2. Mash, add juice of 1 lemon and 2 tbsp olive oil. Heat for 5 min. 3. Top with 0.25 cup pomegranate seeds and 0.25 cup chopped mint. Serve with bread.;Breakfast, Vegetarian;Reduce oil;Omit pomegranate seeds",
+    "__parsed_extra": ["Pomegranate seeds", "Mint", "Olive oil", "Lemon", "0.25 cup", "0.25 cup", "2 tbsp", "1", "cup", "cup", "tbsp", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "16;Grains & Legumes;Lentil Soup (Shorbet Ads) with Carrots and Cumin;Lentils;1 cup;cup;Yes;45 min;1. Sauté 1 chopped onion and 2 chopped carrots in 2 tbsp olive oil. 2. Add 1 cup lentils and 4 cups water. Simmer 30–40 min. 3. Add 1 tsp cumin and salt. Blend if desired. Serve hot.;Soup, Vegetarian;Use less oil;Use vegetable oil instead of olive oil",
+    "__parsed_extra": ["Carrots", "Cumin", "Onion", "Olive oil", "2", "1 tsp", "1", "2 tbsp", "whole", "tsp", "whole", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "17;Grains & Legumes;Spicy Lentil Soup with Chili and Lemon;Lentils;1 cup;cup;Yes;45 min;1. Sauté 1 chopped onion and 2 minced garlic cloves in 1 tbsp oil. 2. Add 1 cup lentils, 1 tsp chili powder, and 4 cups water. Simmer 30–40 min. 3. Add juice of 1 lemon and salt. Serve hot.;Soup, Spicy, Vegetarian;Use fresh chili;Use chili flakes instead of powder",
+    "__parsed_extra": ["Chili powder", "Lemon", "Onion", "Garlic", "1 tsp", "1", "1", "2 cloves", "tsp", "whole", "whole", "cloves", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "18;Grains & Legumes;Creamy Lentil Soup with Coconut Milk;Lentils;1 cup;cup;Yes;50 min;1. Sauté 1 chopped onion and 2 minced garlic cloves in 1 tbsp oil. 2. Add 1 cup lentils, 1 tsp cumin, and 3 cups water. Simmer 30 min. 3. Add 1 cup coconut milk, simmer 10 min. Blend until creamy. Serve hot.;Soup, Vegan;Use low-fat coconut milk;Use milk instead of coconut milk",
+    "__parsed_extra": ["Coconut milk", "Onion", "Garlic", "Cumin", "1 cup", "1", "2 cloves", "1 tsp", "cup", "whole", "cloves", "tsp", "No", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "19;Grains & Legumes;Koshary with Tomato-Garlic Sauce and Crispy Onions;Lentils;0.5 cup;cup;Yes;60 min;1. Boil 0.5 cup lentils and 0.5 cup rice separately. 2. Cook 1 cup macaroni until al dente. 3. Sauté 1 chopped onion and 3 chopped tomatoes for sauce. 4. Fry 1 sliced onion until crispy. 5. Layer lentils, rice, macaroni, sauce, and crispy onions. Serve hot.;Street Food, Vegetarian;Bake onions instead of frying;Use fewer onions",
+    "__parsed_extra": ["Rice", "Macaroni", "Tomatoes", "Onions", "0.5 cup", "1 cup", "3", "2", "cup", "cup", "whole", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "20;Grains & Legumes;Koshary with Harissa and Yogurt Sauce;Lentils;0.5 cup;cup;Yes;60 min;1. Boil 0.5 cup lentils and 0.5 cup rice separately. 2. Cook 1 cup macaroni until al dente. 3. Mix 0.5 cup yogurt with 1 tbsp harissa for sauce. 4. Layer lentils, rice, macaroni, and top with sauce. Serve immediately.;Street Food, Spicy;Use low-fat yogurt;Omit harissa, use chili powder",
+    "__parsed_extra": ["Rice", "Macaroni", "Harissa", "Yogurt", "0.5 cup", "1 cup", "1 tbsp", "0.5 cup", "cup", "cup", "tbsp", "cup", "Yes", "Yes", "No", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "21;Grains & Legumes;Koshary with Smoked Paprika and Black Lentils;Black lentils;0.5 cup;cup;Yes;60 min;1. Boil 0.5 cup black lentils and 0.5 cup rice separately. 2. Cook 1 cup macaroni until al dente. 3. Fry 2 sliced onions until crispy. 4. Toss lentils with 1 tsp smoked paprika. 5. Layer lentils, rice, macaroni, and top with onions. Serve hot.;Street Food, Vegetarian;Bake onions;Use regular paprika",
+    "__parsed_extra": ["Rice", "Macaroni", "Smoked paprika", "Onions", "0.5 cup", "1 cup", "1 tsp", "2", "cup", "cup", "tsp", "whole", "Yes", "Yes", "No", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "22;Grains & Legumes;Ads bi Hamod (Lentils with Lemon and Garlic);Lentils;1 cup;cup;Yes;40 min;1. Boil 1 cup lentils in 4 cups water for 30–40 min. 2. Sauté 3 minced garlic cloves in 2 tbsp olive oil. 3. Add garlic, juice of 1 lemon, and 1 tsp salt to lentils. Simmer 5 min. Serve with bread.;Side Dish, Vegetarian;Reduce oil;Use vegetable oil instead of olive oil",
+    "__parsed_extra": ["Lemon", "Garlic", "Olive oil", "Salt", "1", "3 cloves", "2 tbsp", "1 tsp", "whole", "cloves", "tbsp", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "23;Grains & Legumes;Bissara (Fava Bean Dip) with Dill and Olive Oil;Fava beans;2 cups;cups;Yes;35 min;1. Cook 2 cups fava beans until soft. 2. Blend with 2 minced garlic cloves, juice of 1 lemon, and 2 tbsp olive oil. 3. Stir in 0.25 cup chopped dill. Serve with bread.;Dip, Vegetarian;Use less oil;Use vegetable oil instead of olive oil",
+    "__parsed_extra": ["Dill", "Olive oil", "Garlic", "Lemon", "0.25 cup", "2 tbsp", "2 cloves", "1", "cup", "tbsp", "cloves", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "24;Grains & Legumes;Bissara with Smoked Salt and Mint;Fava beans;2 cups;cups;Yes;35 min;1. Cook 2 cups fava beans. 2. Blend with 2 minced garlic cloves, 1 tsp smoked salt, and 2 tbsp olive oil. 3. Stir in 0.25 cup chopped mint. Serve with bread.;Dip, Vegetarian;Use regular salt;Omit smoked salt",
+    "__parsed_extra": ["Mint", "Smoked salt", "Olive oil", "Garlic", "0.25 cup", "1 tsp", "2 tbsp", "2 cloves", "cup", "tsp", "tbsp", "cloves", "Yes", "No", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "25;Grains & Legumes;Rice with Vermicelli (Roz bil Sha'areya);Rice;1 cup;cup;Yes;25 min;1. Toast 0.5 cup vermicelli in 2 tbsp melted butter until golden. 2. Add 1 cup rice, 1 tsp salt, and 2 cups water. 3. Simmer 15–20 min until cooked. Fluff and serve.;Side Dish, Vegetarian;Use olive oil instead of butter;Use margarine instead of butter",
+    "__parsed_extra": ["Vermicelli", "Butter", "Salt", "Water", "0.5 cup", "2 tbsp", "1 tsp", "2 cups", "cup", "tbsp", "tsp", "cups", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "26;Vegetables;Waraq Enab (Grape Leaves) with Rice and Herbs;Grape leaves;30 leaves;leaves;Yes;60 min;1. Blanch 30 grape leaves. 2. Mix 1 cup rice, 0.5 cup parsley, 0.25 cup dill, and 1 chopped tomato. 3. Roll 1 tbsp filling in each leaf. 4. Simmer in pot with water for 45–60 min. Serve with yogurt.;Vegetarian, Appetizer;Use brown rice;Use cabbage leaves",
+    "__parsed_extra": ["Rice", "Parsley", "Dill", "Tomato", "1 cup", "0.5 cup", "0.25 cup", "1", "cup", "cup", "cup", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "27;Vegetables;Waraq Enab with Rice, Minced Meat, and Dill;Grape leaves;30 leaves;leaves;Yes;60 min;1. Blanch 30 grape leaves. 2. Mix 0.5 cup rice, 200 g minced beef, 0.25 cup dill, and 1 chopped tomato. 3. Roll 1 tbsp filling in each leaf. 4. Simmer in pot with water for 45–60 min. Serve with yogurt.;Appetizer, Savory;Use lean beef;Use minced chicken",
+    "__parsed_extra": ["Rice", "Minced beef", "Dill", "Tomato", "0.5 cup", "200 g", "0.25 cup", "1", "cup", "g", "cup", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "28;Vegetables;Waraq Enab in Tagine with Lamb Chops;Grape leaves;30 leaves;leaves;Yes;75 min;1. Blanch 30 grape leaves. 2. Mix 0.5 cup rice, 1 chopped tomato, and 2 minced garlic cloves. 3. Roll 1 tbsp filling in each leaf. 4. Sear 400 g lamb chops, add rolls and 1 chopped tomato. Simmer in tagine with water for 1 hr. Serve hot.;Main Dish, Festive;Use chicken;Use beef instead of lamb",
+    "__parsed_extra": ["Rice", "Lamb chops", "Tomato", "Garlic", "0.5 cup", "400 g", "2", "2 cloves", "cup", "g", "whole", "cloves", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "29;Vegetables;Kromb (Cabbage Leaves) with Spiced Rice and Tomato Sauce;Cabbage leaves;20 leaves;leaves;Yes;60 min;1. Blanch 20 cabbage leaves. 2. Mix 1 cup rice, 1 chopped onion, and 1 tsp cumin. 3. Roll 1 tbsp filling in each leaf. 4. Cook 2 chopped tomatoes into sauce. 5. Simmer rolls in sauce with water for 45 min. Serve hot.;Vegetarian, Appetizer;Use brown rice;Use less tomato",
+    "__parsed_extra": ["Rice", "Tomato", "Cumin", "Onion", "1 cup", "2", "1 tsp", "1", "cup", "whole", "tsp", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "30;Vegetables;Koosa (Zucchini) Stuffed with Rice, Mint, and Lemon;Zucchini;4;whole;Yes;50 min;1. Hollow out 4 zucchini. 2. Mix 1 cup rice, 0.25 cup mint, juice of 1 lemon, and 1 tbsp olive oil. 3. Stuff zucchini. 4. Simmer in pot with 1 tbsp olive oil and water for 40–50 min. Serve with lemon.;Vegetarian, Main Dish;Bake instead of simmering;Use vegetable oil",
+    "__parsed_extra": ["Rice", "Mint", "Lemon", "Olive oil", "1 cup", "0.25 cup", "1", "2 tbsp", "cup", "cup", "whole", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "31;Vegetables;Koosa Stuffed with Bulgur and Chickpeas;Zucchini;4;whole;Yes;50 min;1. Hollow out 4 zucchini. 2. Mix 0.5 cup bulgur, 0.5 cup chickpeas, 1 chopped onion, and 0.25 cup parsley. 3. Stuff zucchini. 4. Simmer in pot with water for 40–50 min. Serve with yogurt.;Vegetarian, Main Dish;Use less bulgur;Use rice instead of bulgur",
+    "__parsed_extra": ["Bulgur", "Chickpeas", "Onion", "Parsley", "0.5 cup", "0.5 cup", "1", "0.25 cup", "cup", "cup", "whole", "cup", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "32;Vegetables;Batenjan (Eggplant) Stuffed with Rice and Pine Nuts;Eggplant;4;whole;Yes;60 min;1. Hollow out 4 eggplants. 2. Toast 0.25 cup pine nuts. 3. Mix 1 cup rice, pine nuts, 1 chopped tomato, and 2 minced garlic cloves. 4. Stuff eggplants. 5. Simmer with water for 40–50 min. Serve hot.;Vegetarian, Main Dish;Omit pine nuts;Use sunflower seeds instead of pine nuts",
+    "__parsed_extra": ["Rice", "Pine nuts", "Tomato", "Garlic", "1 cup", "0.25 cup", "1", "2 cloves", "cup", "cup", "whole", "cloves", "Yes", "No", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "33;Vegetables;Felfel (Bell Peppers) Stuffed with Rice, Beef, and Allspice;Bell peppers;4;whole;Yes;60 min;1. Hollow out 4 bell peppers. 2. Mix 0.5 cup rice, 200 g minced beef, 1 chopped tomato, and 1 tsp allspice. 3. Stuff peppers. 4. Simmer with water for 40–50 min. Serve with tomato sauce.;Main Dish, Savory;Use lean beef;Use minced chicken",
+    "__parsed_extra": ["Rice", "Minced beef", "Allspice", "Tomato", "0.5 cup", "200 g", "1 tsp", "1", "cup", "g", "tsp", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "34;Vegetables;Tamatem (Tomatoes) Stuffed with Rice and Parsley;Tomatoes;6;whole;Yes;50 min;1. Hollow out 6 tomatoes, reserve flesh. 2. Mix 1 cup rice, 0.25 cup parsley, 2 minced garlic cloves, and 1 tbsp olive oil. 3. Stuff tomatoes. 4. Simmer with tomato flesh, 1 tbsp olive oil, and water for 40 min. Serve warm.;Vegetarian, Appetizer;Reduce oil;Use vegetable oil",
+    "__parsed_extra": ["Rice", "Parsley", "Olive oil", "Garlic", "1 cup", "0.25 cup", "2 tbsp", "2 cloves", "cup", "cup", "tbsp", "cloves", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "35;Vegetables;Batates (Potatoes) Stuffed with Minced Meat and Onions;Potatoes;4;whole;Yes;60 min;1. Hollow out 4 potatoes. 2. Sauté 1 chopped onion, 200 g minced beef, 1 tsp cumin, and 1 chopped tomato. 3. Stuff potatoes. 4. Simmer with water for 40–50 min. Serve hot.;Main Dish, Savory;Use lean beef;Use minced chicken",
+    "__parsed_extra": ["Minced beef", "Onion", "Cumin", "Tomato", "200 g", "1", "1 tsp", "1", "g", "whole", "tsp", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "36;Vegetables;Mixed Mahshi Platter (Zucchini, Peppers, Grape Leaves);Zucchini;2;whole;Yes;60 min;1. Hollow out 2 zucchini and 2 bell peppers; blanch 15 grape leaves. 2. Mix 1 cup rice and 0.25 cup parsley. 3. Stuff vegetables and roll leaves. 4. Simmer in pot with water for 45–60 min. Serve with yogurt.;Vegetarian, Appetizer;Use brown rice;Use cabbage leaves for grape leaves",
+    "__parsed_extra": ["Bell peppers", "Grape leaves", "Rice", "Parsley", "2", "15 leaves", "1 cup", "0.25 cup", "whole", "leaves", "cup", "cup", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "37;Vegetables;Mahshi with Saffron Rice and Almonds;Grape leaves;30 leaves;leaves;Yes;60 min;1. Blanch 30 grape leaves. 2. Mix 1 cup rice, 0.25 tsp saffron (soaked in water), 0.25 cup almonds, and juice of 1 lemon. 3. Roll 1 tbsp filling in each leaf. 4. Simmer with water for 45–60 min. Serve with lemon.;Vegetarian, Luxurious;Omit almonds;Use sunflower seeds instead of almonds",
+    "__parsed_extra": ["Rice", "Saffron", "Almonds", "Lemon", "1 cup", "0.25 tsp", "0.25 cup", "1", "cup", "tsp", "cup", "whole", "Yes", "No", "No", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "38;Vegetables;Torly with Potatoes, Carrots, and Peas;Potatoes;2;whole;Yes;45 min;1. Sauté 1 chopped onion in 1 tbsp oil. 2. Add 2 cubed potatoes, 2 sliced carrots, 0.5 cup peas, and 2 chopped tomatoes. 3. Simmer with 1 cup water for 20–25 min. Serve with rice.;Vegetarian, Main Dish;Reduce oil;Use fewer vegetables",
+    "__parsed_extra": ["Carrots", "Peas", "Tomato", "Onion", "2", "0.5 cup", "2", "1", "whole", "cup", "whole", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "39;Vegetables;Torly with Okra and Lamb;Okra;500 g;g;Yes;90 min;1. Sear 400 g lamb in 1 tbsp oil. 2. Add 2 minced garlic cloves and 2 chopped tomatoes. 3. Stir in 500 g okra and 2 tbsp coriander. 4. Simmer with 1 cup water for 30–40 min. Serve with rice.;Main Dish, Hearty;Use chicken;Use beef instead of lamb",
+    "__parsed_extra": ["Lamb", "Tomato", "Garlic", "Coriander", "400 g", "2", "2 cloves", "2 tbsp", "g", "whole", "cloves", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "40;Vegetables;Torly with Zucchini and Eggplant (Summer Variation);Zucchini;2;whole;Yes;45 min;1. Sauté 1 chopped onion and 2 minced garlic cloves in 1 tbsp oil. 2. Add 2 sliced zucchini, 1 cubed eggplant, and 2 chopped tomatoes. 3. Simmer with 1 cup water for 20–25 min. Serve with rice.;Vegetarian, Seasonal;Reduce oil;Use fewer vegetables",
+    "__parsed_extra": ["Eggplant", "Tomato", "Onion", "Garlic", "1", "2", "1", "2 cloves", "whole", "whole", "whole", "cloves", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "41;Vegetables;Bamia (Okra Stew) with Lamb and Tomato;Okra;500 g;g;Yes;90 min;1. Sear 400 g lamb in 1 tbsp oil. 2. Add 3 minced garlic cloves and 3 chopped tomatoes. 3. Stir in 500 g okra and 2 tbsp coriander. 4. Simmer with 1 cup water for 30–40 min. Serve with rice.;Main Dish, Hearty;Use chicken;Use beef instead of lamb",
+    "__parsed_extra": ["Lamb", "Tomato", "Garlic", "Coriander", "400 g", "3", "3 cloves", "2 tbsp", "g", "whole", "cloves", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "42;Vegetables;Bamia with Garlic and Coriander;Okra;500 g;g;Yes;45 min;1. Sauté 3 minced garlic cloves in 2 tbsp olive oil. 2. Add 500 g okra and 2 chopped tomatoes. 3. Simmer with 1 cup water and 2 tbsp coriander for 20–25 min. Serve with rice.;Vegetarian, Main Dish;Reduce oil;Use vegetable oil",
+    "__parsed_extra": ["Garlic", "Coriander", "Tomato", "Olive oil", "3 cloves", "2 tbsp", "2", "2 tbsp", "cloves", "tbsp", "whole", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "43;Vegetables;Vegetarian Bamia with Chickpeas;Okra;500 g;g;Yes;45 min;1. Sauté 1 chopped onion and 2 minced garlic cloves in 1 tbsp oil. 2. Add 500 g okra, 2 chopped tomatoes, and 0.5 cup chickpeas. 3. Simmer with 1 cup water for 20–25 min. Serve with rice.;Vegetarian, Main Dish;Use less oil;Use canned chickpeas",
+    "__parsed_extra": ["Chickpeas", "Tomato", "Garlic", "Onion", "0.5 cup", "2", "2 cloves", "1", "cup", "whole", "cloves", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "44;Vegetables;Molokhia with Chicken and Garlic;Molokhia;500 g;g;Yes;45 min;1. Boil 500 g chicken in 4 cups water; shred and reserve broth. 2. Add 500 g molokhia to broth, simmer 10 min. 3. Sauté 5 minced garlic cloves and 2 tbsp coriander in 2 tbsp butter. 4. Add to molokhia, simmer 5 min. Serve with chicken and rice.;Soup, Traditional;Use vegetable broth, skip butter;Use frozen molokhia",
+    "__parsed_extra": ["Chicken", "Garlic", "Coriander", "Butter", "500 g", "5 cloves", "2 tbsp", "2 tbsp", "g", "cloves", "tbsp", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "45;Vegetables;Molokhia with Rabbit and Lemon;Molokhia;500 g;g;Yes;60 min;1. Boil 500 g rabbit in 4 cups water; shred and reserve broth. 2. Add 500 g molokhia to broth, simmer 10 min. 3. Sauté 3 minced garlic cloves and 2 tbsp coriander in 1 tbsp oil. 4. Add garlic mix and juice of 1 lemon to molokhia. Serve with rabbit and rice.;Soup, Upper Egyptian;Use vegetable broth;Use chicken instead of rabbit",
+    "__parsed_extra": ["Rabbit", "Lemon", "Garlic", "Coriander", "500 g", "1", "3 cloves", "2 tbsp", "g", "whole", "cloves", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "46;Vegetables;Alexandrian Molokhia with Shrimp;Molokhia;500 g;g;Yes;40 min;1. Simmer 500 g molokhia in 3 cups water for 10 min. 2. Sauté 300 g shrimp, 3 minced garlic cloves, and 2 tbsp coriander in 1 tbsp oil. 3. Add shrimp mix and juice of 1 lemon to molokhia. Simmer 5 min. Serve with rice.;Soup, Alexandrian;Use less shrimp;Use fish instead of shrimp",
+    "__parsed_extra": ["Shrimp", "Garlic", "Coriander", "Lemon", "300 g", "3 cloves", "2 tbsp", "1", "g", "cloves", "tbsp", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "47;Vegetables;Molokhia with Beef and Roasted Garlic;Molokhia;500 g;g;Yes;60 min;1. Boil 400 g beef in 4 cups water; reserve broth. 2. Roast 5 garlic cloves at 400°F (200°C) for 15 min, mince. 3. Add 500 g molokhia to broth, simmer 10 min. 4. Sauté roasted garlic and 2 tbsp coriander in 2 tbsp butter. Add to molokhia. Serve with beef and rice.;Soup, Hearty;Use lean beef, skip butter;Use frozen molokhia",
+    "__parsed_extra": ["Beef", "Garlic", "Coriander", "Butter", "400 g", "5 cloves", "2 tbsp", "2 tbsp", "g", "cloves", "tbsp", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "48;Vegetables;Mesaka'a (Egyptian Moussaka) with Minced Meat and Tomato;Eggplant;2;whole;Yes;60 min;1. Salt and fry 2 sliced eggplants. 2. Sauté 1 chopped onion, 2 minced garlic cloves, and 300 g minced beef. 3. Add 3 chopped tomatoes, cook 10 min. 4. Layer eggplant and meat sauce in dish. Bake at 375°F (190°C) for 20–25 min. Serve with rice.;Main Dish, Savory;Bake eggplant;Use minced chicken",
+    "__parsed_extra": ["Minced beef", "Tomato", "Onion", "Garlic", "300 g", "3", "1", "2 cloves", "g", "whole", "whole", "cloves", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "49;Vegetables;Vegetarian Mesaka'a with Chickpeas;Eggplant;2;whole;Yes;50 min;1. Salt and fry 2 sliced eggplants. 2. Sauté 1 chopped onion, 2 minced garlic cloves, and 3 chopped tomatoes. 3. Add 0.5 cup chickpeas, cook 5 min. 4. Layer eggplant and chickpea sauce. Bake at 375°F (190°C) for 20 min. Serve with rice.;Vegetarian, Main Dish;Bake eggplant;Use canned chickpeas",
+    "__parsed_extra": ["Chickpeas", "Tomato", "Onion", "Garlic", "0.5 cup", "3", "1", "2 cloves", "cup", "whole", "whole", "cloves", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "50;Vegetables;Sabanegh (Spinach Stew) with Ground Beef and Rice;Spinach;500 g;g;Yes;45 min;1. Sauté 1 chopped onion, 2 minced garlic cloves, and 300 g ground beef. 2. Add 500 g spinach, cook until wilted. 3. Add 0.5 cup rice and 2 cups water, simmer 20–25 min. Serve with bread.;Main Dish, Savory;Use lean beef;Use minced chicken",
+    "__parsed_extra": ["Ground beef", "Rice", "Onion", "Garlic", "300 g", "0.5 cup", "1", "2 cloves", "g", "cup", "whole", "cloves", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "51;Vegetables;Sabanegh with Chickpeas and Lemon;Spinach;500 g;g;Yes;40 min;1. Sauté 1 chopped onion and 2 minced garlic cloves. 2. Add 500 g spinach until wilted. 3. Add 0.5 cup chickpeas and juice of 1 lemon, simmer 10 min. Serve with bread.;Vegetarian, Main Dish;Reduce oil;Use canned chickpeas",
+    "__parsed_extra": ["Chickpeas", "Lemon", "Onion", "Garlic", "0.5 cup", "1", "1", "2 cloves", "cup", "whole", "whole", "cloves", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "52;Vegetables;Qolqas (Taro Root Stew) with Swiss Chard and Garlic;Taro root;500 g;g;Yes;50 min;1. Sauté 3 minced garlic cloves in 2 tbsp olive oil. 2. Add 500 g taro and 2 chopped tomatoes. 3. Add 200 g Swiss chard and 1 cup water, simmer 20–25 min. Serve with rice.;Vegetarian, Main Dish;Reduce oil;Use potatoes instead of taro",
+    "__parsed_extra": ["Swiss chard", "Garlic", "Tomato", "Olive oil", "200 g", "3 cloves", "2", "2 tbsp", "g", "cloves", "whole", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "53;Vegetables;Qolqas with Lamb and Coriander;Taro root;500 g;g;Yes;90 min;1. Sear 400 g lamb. 2. Add 2 minced garlic cloves and 2 chopped tomatoes. 3. Add 500 g taro, 2 tbsp coriander, and 1 cup water, simmer 30–40 min. Serve with rice.;Main Dish, Hearty;Use chicken;Use beef instead of lamb",
+    "__parsed_extra": ["Lamb", "Coriander", "Tomato", "Garlic", "400 g", "2 tbsp", "2", "2 cloves", "g", "tbsp", "whole", "cloves", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "54;Vegetables;Basella (Pea and Carrot Stew) with Chicken;Peas;0.5 cup;cup;Yes;60 min;1. Sear 400 g chicken with 1 chopped onion. 2. Add 2 sliced carrots, 0.5 cup peas, and 2 chopped tomatoes. 3. Simmer with 1 cup water for 30–40 min. Serve with rice.;Main Dish, Savory;Use skinless chicken;Use chicken thighs",
+    "__parsed_extra": ["Carrots", "Chicken", "Tomato", "Onion", "2", "400 g", "2", "1", "whole", "g", "whole", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "55;Vegetables;Batates Mahshi (Stuffed Potatoes) with Spiced Beef;Potatoes;4;whole;Yes;60 min;1. Hollow out 4 potatoes. 2. Sauté 1 chopped onion, 300 g minced beef, 1 tsp cumin, and 1 chopped tomato. 3. Stuff potatoes. 4. Simmer with water for 40–50 min. Serve hot.;Main Dish, Savory;Use lean beef;Use minced chicken",
+    "__parsed_extra": ["Minced beef", "Onion", "Cumin", "Tomato", "300 g", "1", "1 tsp", "1", "g", "whole", "tsp", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "56;Vegetables;Batates bi Laban (Potatoes in Yogurt Sauce);Potatoes;4;whole;Yes;40 min;1. Boil 4 cubed potatoes until tender. 2. Sauté 2 minced garlic cloves in 2 tbsp olive oil. 3. Mix garlic with 0.5 cup yogurt and juice of 1 lemon. 4. Toss potatoes in sauce. Serve warm.;Vegetarian, Side Dish;Use low-fat yogurt;Use laban rayeb",
+    "__parsed_extra": ["Yogurt", "Garlic", "Lemon", "Olive oil", "0.5 cup", "2 cloves", "1", "2 tbsp", "cup", "cloves", "whole", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "57;Vegetables;Grilled Vegetable Platter with Tahini;Zucchini;2;whole;Yes;30 min;1. Grill 2 sliced zucchini, 1 sliced eggplant, and 2 sliced bell peppers for 5 min per side. 2. Mix 0.25 cup tahini with juice of 1 lemon and 2 tbsp water. 3. Drizzle over vegetables. Serve on platter.;Vegetarian, Appetizer;Reduce tahini;Omit tahini",
+    "__parsed_extra": ["Eggplant", "Bell peppers", "Tahini", "Lemon", "1", "2", "0.25 cup", "1", "whole", "whole", "cup", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "58;Vegetables;Stuffed Artichokes with Rice and Dill;Artichokes;4;whole;Yes;60 min;1. Trim 4 artichokes, remove choke. 2. Mix 0.5 cup rice, 0.25 cup dill, juice of 1 lemon, and 1 tbsp olive oil. 3. Stuff artichokes. 4. Simmer with 1 tbsp olive oil and water for 40–50 min. Serve warm.;Vegetarian, Seasonal;Reduce oil;Use canned artichokes",
+    "__parsed_extra": ["Rice", "Dill", "Lemon", "Olive oil", "0.5 cup", "0.25 cup", "1", "2 tbsp", "cup", "cup", "whole", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "59;Vegetables;Mahshi Lift (Turnips) with Rice and Parsley;Turnips;4;whole;Yes;50 min;1. Hollow out 4 turnips. 2. Mix 0.5 cup rice, 0.25 cup parsley, juice of 1 lemon, and 1 tbsp olive oil. 3. Stuff turnips. 4. Simmer with 1 tbsp olive oil and water for 40–50 min. Serve with lemon.;Vegetarian, Appetizer;Reduce oil;Use potatoes instead of turnips",
+    "__parsed_extra": ["Rice", "Parsley", "Olive oil", "Lemon", "0.5 cup", "0.25 cup", "2 tbsp", "1", "cup", "cup", "tbsp", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "60;Vegetables;Mahshi with Pomegranate Molasses Glaze;Grape leaves;30 leaves;leaves;Yes;60 min;1. Blanch 30 grape leaves. 2. Mix 1 cup rice, 0.25 cup parsley, 1 chopped tomato, and 1 tbsp pomegranate molasses. 3. Roll 1 tbsp filling in each leaf. 4. Simmer with 1 tbsp pomegranate molasses and water for 45–60 min. Serve with yogurt.;Vegetarian, Appetizer;Use less molasses;Use lemon juice instead of molasses",
+    "__parsed_extra": ["Rice", "Pomegranate molasses", "Parsley", "Tomato", "1 cup", "2 tbsp", "0.25 cup", "1", "cup", "tbsp", "cup", "whole", "Yes", "No", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "61;Vegetables;Torly with Fennel and Leeks;Fennel;2;whole;Yes;45 min;1. Sauté 2 sliced fennel, 2 sliced leeks, and 2 minced garlic cloves in 2 tbsp olive oil. 2. Add 2 chopped tomatoes. 3. Simmer with 1 cup water for 20–25 min. Serve with rice.;Vegetarian, Main Dish;Reduce oil;Use onions instead of leeks",
+    "__parsed_extra": ["Leeks", "Tomato", "Garlic", "Olive oil", "2", "2", "2 cloves", "2 tbsp", "whole", "whole", "cloves", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "62;Vegetables;Bamia with Tamarind and Chili;Okra;500 g;g;Yes;45 min;1. Sauté 2 minced garlic cloves and 2 chopped tomatoes in 1 tbsp oil. 2. Add 500 g okra, 1 tbsp tamarind paste, and 1 tsp chili powder. 3. Simmer with 1 cup water for 20–25 min. Serve with rice.;Vegetarian, Spicy;Reduce tamarind;Use lemon juice instead of tamarind",
+    "__parsed_extra": ["Tamarind paste", "Chili powder", "Tomato", "Garlic", "1 tbsp", "1 tsp", "2", "2 cloves", "tbsp", "tsp", "whole", "cloves", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "63;Vegetables;Molokhia with Duck and Green Peppercorns;Molokhia;500 g;g;Yes;60 min;1. Boil 500 g duck in 4 cups water; shred and reserve broth. 2. Add 500 g molokhia to broth, simmer 10 min. 3. Sauté 3 minced garlic cloves, 2 tbsp coriander, and 1 tsp green peppercorns in 1 tbsp oil. 4. Add to molokhia, simmer 5 min. Serve with duck and rice.;Soup, Luxurious;Use chicken;Use chicken instead of duck",
+    "__parsed_extra": ["Duck", "Green peppercorns", "Garlic", "Coriander", "500 g", "1 tsp", "3 cloves", "2 tbsp", "g", "tsp", "cloves", "tbsp", "Yes", "No", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "64;Vegetables;Mesaka'a with Cauliflower and Tomato;Cauliflower;1 head;whole;Yes;50 min;1. Boil 1 head cauliflower florets for 5 min. 2. Sauté 1 chopped onion, 2 minced garlic cloves, and 3 chopped tomatoes in 2 tbsp olive oil. 3. Layer cauliflower and sauce in dish. 4. Bake at 375°F (190°C) for 20 min. Serve with rice.;Vegetarian, Main Dish;Bake cauliflower;Use broccoli instead of cauliflower",
+    "__parsed_extra": ["Tomato", "Onion", "Garlic", "Olive oil", "3", "1", "2 cloves", "2 tbsp", "whole", "whole", "cloves", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "65;Vegetables;Sabanegh with Lentils and Caramelized Onions;Spinach;500 g;g;Yes;45 min;1. Boil 0.5 cup lentils for 20 min. 2. Caramelize 2 sliced onions in 2 tbsp olive oil. 3. Sauté 500 g spinach and 2 minced garlic cloves until wilted. 4. Add lentils, cook 5 min. Top with onions. Serve with bread.;Vegetarian, Main Dish;Reduce oil;Use fewer onions",
+    "__parsed_extra": ["Lentils", "Onions", "Garlic", "Olive oil", "0.5 cup", "2", "2 cloves", "2 tbsp", "cup", "whole", "cloves", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "66;Meats & Poultry;Grilled Kofta with Parsley and Onion;Ground beef;500 g;g;Yes;30 min;1. Mix 500 g ground beef, 0.5 cup parsley, 1 grated onion, 1 tsp cumin, and 1 tsp salt. 2. Form into patties. 3. Grill 4–5 min per side. Serve with pita.;Main Dish, Grilled;Use ground turkey;Use ground chicken",
+    "__parsed_extra": ["Parsley", "Onion", "Cumin", "Salt", "0.5 cup", "1", "1 tsp", "1 tsp", "cup", "whole", "tsp", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "67;Meats & Poultry;Baked Kofta in Tomato Sauce with Potatoes;Ground beef;500 g;g;Yes;60 min;1. Mix 500 g ground beef, 1 chopped onion, and 2 minced garlic cloves; form patties. 2. Cook 3 chopped tomatoes into sauce. 3. Layer 2 sliced potatoes and kofta in dish, pour sauce over. 4. Bake at 375°F (190°C) for 30–40 min. Serve with rice.;Main Dish, Hearty;Use lean beef;Use minced chicken",
+    "__parsed_extra": ["Potatoes", "Tomato", "Onion", "Garlic", "2", "3", "1", "2 cloves", "whole", "whole", "whole", "cloves", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "68;Meats & Poultry;Kofta with Tahini and Pine Nuts;Ground beef;500 g;g;Yes;45 min;1. Mix 500 g ground beef, 1 grated onion, and 1 tsp cumin; form patties. 2. Toast 0.25 cup pine nuts. 3. Grill kofta 4–5 min per side. 4. Mix 0.25 cup tahini with 2 tbsp water. Top kofta with tahini and pine nuts. Serve with pita.;Main Dish, Savory;Omit pine nuts;Use sunflower seeds instead of pine nuts",
+    "__parsed_extra": ["Tahini", "Pine nuts", "Onion", "Cumin", "0.25 cup", "0.25 cup", "1", "1 tsp", "cup", "cup", "whole", "tsp", "Yes", "No", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "69;Meats & Poultry;Kebab Halla (Braised Beef) with Onions and Spices;Beef cubes;500 g;g;Yes;90 min;1. Sear 500 g beef cubes. 2. Add 2 sliced onions, 2 minced garlic cloves, 1 tsp cumin, and 1 chopped tomato. 3. Simmer with 1 cup water for 1.5–2 hr. Serve with rice.;Main Dish, Hearty;Use lean beef;Use cheaper beef cuts",
+    "__parsed_extra": ["Onions", "Garlic", "Cumin", "Tomato", "2", "2 cloves", "1 tsp", "1", "whole", "cloves", "tsp", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "70;Meats & Poultry;Grilled Lamb Kebabs with Mint and Garlic;Lamb cubes;500 g;g;Yes;30 min;1. Marinate 500 g lamb with 0.25 cup mint, 3 minced garlic cloves, 2 tbsp olive oil, and juice of 1 lemon for 1 hr. 2. Skewer and grill 4–5 min per side. Serve with pita.;Main Dish, Grilled;Use chicken;Use beef instead of lamb",
+    "__parsed_extra": ["Mint", "Garlic", "Olive oil", "Lemon", "0.25 cup", "3 cloves", "2 tbsp", "1", "cup", "cloves", "tbsp", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "71;Meats & Poultry;Chicken Pane (Breaded Chicken Cutlets);Chicken breast;500 g;g;Yes;30 min;1. Slice 500 g chicken into cutlets. 2. Dredge in 0.5 cup flour, dip in 2 beaten eggs, coat with 1 cup breadcrumbs. 3. Fry in 0.5 cup oil 3–4 min per side. Serve with salad.;Main Dish, Fried;Bake instead of frying;Use chicken thighs",
+    "__parsed_extra": ["Breadcrumbs", "Eggs", "Flour", "Oil", "1 cup", "2", "0.5 cup", "0.5 cup", "cup", "whole", "cup", "cup", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "72;Meats & Poultry;Roasted Chicken with Rosemary and Lemon;Chicken;1 kg;whole;Yes;75 min;1. Rub 1 kg chicken with 2 tbsp olive oil, 2 tbsp rosemary, 3 minced garlic cloves, and juice of 1 lemon. 2. Roast with 1 sliced lemon at 375°F (190°C) for 1–1.5 hr. Serve with vegetables.;Main Dish, Roasted;Use skinless chicken;Use chicken thighs",
+    "__parsed_extra": ["Rosemary", "Lemon", "Garlic", "Olive oil", "2 tbsp", "2", "3 cloves", "2 tbsp", "tbsp", "whole", "cloves", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "73;Meats & Poultry;Chicken Tagine with Olives and Preserved Lemon;Chicken;500 g;g;Yes;60 min;1. Sear 500 g chicken. 2. Add 1 chopped onion, 2 minced garlic cloves, 0.5 cup olives, and 1 chopped preserved lemon. 3. Simmer with 1 cup water for 40–50 min. Serve with couscous.;Main Dish, Savory;Use skinless chicken;Use fresh lemon instead of preserved",
+    "__parsed_extra": ["Olives", "Preserved lemon", "Onion", "Garlic", "0.5 cup", "1", "1", "2 cloves", "cup", "whole", "whole", "cloves", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "74;Meats & Poultry;Fatta with Lamb and Garlic-Yogurt Sauce;Lamb;400 g;g;Yes;60 min;1. Boil 400 g lamb; reserve broth. 2. Toast 2 pieces torn bread. 3. Cook 2 chopped tomatoes into sauce. 4. Mix 0.5 cup yogurt with 2 minced garlic cloves. 5. Layer bread, lamb, tomato sauce, and yogurt sauce. Serve immediately.;Festive, Hearty;Use lean lamb;Use beef instead of lamb",
+    "__parsed_extra": ["Bread", "Yogurt", "Garlic", "Tomato", "2 pieces", "0.5 cup", "2 cloves", "2", "pieces", "cup", "cloves", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "75;Meats & Poultry;Vegetarian Fatta with Chickpeas and Crispy Bread;Chickpeas;1 cup;cup;Yes;45 min;1. Heat 1 cup chickpeas in 1 cup water. 2. Toast 2 pieces torn bread. 3. Cook 2 chopped tomatoes into sauce. 4. Mix 0.5 cup yogurt with 2 minced garlic cloves. 5. Layer bread, chickpeas, tomato sauce, and yogurt sauce. Serve immediately.;Vegetarian, Festive;Use low-fat yogurt;Use canned chickpeas",
+    "__parsed_extra": ["Bread", "Yogurt", "Garlic", "Tomato", "2 pieces", "0.5 cup", "2 cloves", "2", "pieces", "cup", "cloves", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  [
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "76;Meats & Poultry;Kebda Eskandarani (Alexandrian Liver) with Chili and Lime;Beef liver;400 g;g;Yes;20 min;1. Sauté 400 g liver and 2 minced garlic cloves in 2 tbsp olive oil for 3–4 min. 2. Add 1 tsp chili powder and juice of 1 lime, cook 2 min. Serve with pita.;Main Dish, Spicy, Alexandrian;Reduce oil;Use chicken liver",
+    "__parsed_extra": ["Garlic", "Chili powder", "Lime", "Olive oil", "2 cloves", "1 tsp", "1", "2 tbsp", "cloves", "tsp", "whole", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "77;Meats & Poultry;Kebda with Tahini and Green Peppers;Beef liver;400 g;g;Yes;25 min;1. Sauté 1 chopped green pepper and 2 minced garlic cloves in 2 tbsp olive oil. 2. Add 400 g liver, cook 4–5 min. 3. Mix 0.25 cup tahini with 2 tbsp water, add to liver, cook 2 min. Serve with bread.;Main Dish, Savory;Reduce tahini;Use yogurt instead of tahini",
+    "__parsed_extra": ["Green pepper", "Tahini", "Garlic", "Olive oil", "1", "0.25 cup", "2 cloves", "2 tbsp", "whole", "cup", "cloves", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "78;Meats & Poultry;Mombar (Stuffed Sausage) with Rice and Beef;Beef sausage casing;500 g;g;Yes;60 min;1. Mix 1 cup rice, 200 g minced beef, 1 chopped onion, and 0.25 cup parsley. 2. Stuff into 500 g sausage casings. 3. Boil in water with 1 tsp cumin for 40–50 min. Serve with salad.;Main Dish, Traditional;Use lean beef;Use minced chicken",
+    "__parsed_extra": ["Rice", "Minced beef", "Onion", "Parsley", "Cumin", "1 cup", "200 g", "1", "0.25 cup", "1 tsp", "cup", "g", "whole", "cup", "tsp", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "79;Meats & Poultry;Mombar with Bulgur and Tomatoes;Beef sausage casing;500 g;g;Yes;60 min;1. Mix 1 cup bulgur, 1 chopped tomato, 1 chopped onion, and 0.25 cup parsley. 2. Stuff into 500 g sausage casings. 3. Boil in water with 1 tsp cumin for 40–50 min. Serve with yogurt.;Main Dish, Vegetarian;Use less bulgur;Use rice instead of bulgur",
+    "__parsed_extra": ["Bulgur", "Tomato", "Onion", "Parsley", "Cumin", "1 cup", "1", "1", "0.25 cup", "1 tsp", "cup", "whole", "whole", "cup", "tsp", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "80;Meats & Poultry;Hamam Mahshi (Stuffed Pigeon) with Freekeh;Pigeon;2;whole;Yes;60 min;1. Rinse 2 pigeons. 2. Mix 1 cup freekeh, 1 chopped onion, and 1 tsp allspice. 3. Stuff pigeons. 4. Boil in water with 1 tsp salt for 40–50 min. Serve with broth.;Main Dish, Festive;Bake instead of boiling;Use chicken instead of pigeon",
+    "__parsed_extra": ["Freekeh", "Onion", "Allspice", "Salt", "1 cup", "1", "1 tsp", "1 tsp", "cup", "whole", "tsp", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "81;Meats & Poultry;Hamam Mahshi with Rice and Nuts;Pigeon;2;whole;Yes;60 min;1. Rinse 2 pigeons. 2. Mix 1 cup rice, 0.25 cup almonds, 0.25 cup raisins, and 1 tsp cinnamon. 3. Stuff pigeons. 4. Boil in water with 1 tsp salt for 40–50 min. Serve with broth.;Main Dish, Luxurious;Omit nuts;Use sunflower seeds instead of almonds",
+    "__parsed_extra": ["Rice", "Almonds", "Raisins", "Cinnamon", "Salt", "1 cup", "0.25 cup", "0.25 cup", "1 tsp", "1 tsp", "cup", "cup", "cup", "tsp", "tsp", "Yes", "No", "No", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "82;Meats & Poultry;Grilled Rabbit with Garlic and Thyme;Rabbit;500 g;g;Yes;45 min;1. Marinate 500 g rabbit with 3 minced garlic cloves, 2 tbsp thyme, 2 tbsp olive oil, and juice of 1 lemon for 1 hr. 2. Grill 5–6 min per side. Serve with salad.;Main Dish, Grilled;Use chicken;Use chicken instead of rabbit",
+    "__parsed_extra": ["Garlic", "Thyme", "Olive oil", "Lemon", "3 cloves", "2 tbsp", "2 tbsp", "1", "cloves", "tbsp", "tbsp", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "83;Meats & Poultry;Dawood Basha (Meatballs) with Tomato and Pine Nuts;Ground beef;500 g;g;Yes;45 min;1. Mix 500 g ground beef, 1 chopped onion, and 1 tsp allspice; form meatballs. 2. Sear meatballs in 1 tbsp oil. 3. Add 2 chopped tomatoes and 0.25 cup pine nuts, simmer 20 min. Serve with rice.;Main Dish, Savory;Omit pine nuts;Use sunflower seeds instead of pine nuts",
+    "__parsed_extra": ["Pine nuts", "Tomato", "Onion", "Allspice", "0.25 cup", "2", "1", "1 tsp", "cup", "whole", "whole", "tsp", "No", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "84;Meats & Poultry;Sayadeya with Chicken and Caramelized Onions;Chicken;500 g;g;Yes;60 min;1. Caramelize 2 sliced onions in 2 tbsp olive oil. 2. Sear 500 g chicken. 3. Add onions, 2 minced garlic cloves, 1 tsp cumin, and 2 chopped tomatoes. 4. Simmer with 1 cup water for 30–40 min. Serve with rice.;Main Dish, Savory;Use skinless chicken;Use chicken thighs",
+    "__parsed_extra": ["Onions", "Garlic", "Cumin", "Tomato", "2", "2 cloves", "1 tsp", "2", "whole", "cloves", "tsp", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "85;Meats & Poultry;Sogoq (Sausages) with Potatoes and Peppers;Beef sausages;400 g;g;Yes;40 min;1. Sauté 400 g sausages in 1 tbsp oil until browned. 2. Add 2 cubed potatoes, 1 chopped bell pepper, and 1 chopped onion. 3. Simmer with 1 cup water for 20–25 min. Serve with bread.;Main Dish, Hearty;Use turkey sausages;Use cheaper sausages",
+    "__parsed_extra": ["Potatoes", "Bell pepper", "Onion", "Oil", "2", "1", "1", "1 tbsp", "whole", "whole", "whole", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "86;Meats & Poultry;Lamb Tagine with Prunes and Almonds;Lamb;500 g;g;Yes;90 min;1. Sear 500 g lamb in 1 tbsp oil. 2. Add 1 chopped onion, 2 minced garlic cloves, 0.5 cup prunes, and 0.25 cup almonds. 3. Simmer with 1 cup water and 1 tsp cinnamon for 1 hr. Serve with couscous.;Main Dish, Luxurious;Use chicken;Use beef instead of lamb",
+    "__parsed_extra": ["Prunes", "Almonds", "Onion", "Garlic", "Cinnamon", "0.5 cup", "0.25 cup", "1", "2 cloves", "1 tsp", "cup", "cup", "whole", "cloves", "tsp", "No", "No", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "87;Meats & Poultry;Roasted Duck with Orange and Molasses;Duck;1 kg;whole;Yes;90 min;1. Rub 1 kg duck with 2 tbsp olive oil, 1 tsp salt, and juice of 1 orange. 2. Roast with 1 sliced orange at 375°F (190°C) for 1–1.5 hr. 3. Brush with 1 tbsp molasses during last 10 min. Serve with rice.;Main Dish, Festive;Use chicken;Use chicken instead of duck",
+    "__parsed_extra": ["Orange", "Molasses", "Olive oil", "Salt", "2", "1 tbsp", "2 tbsp", "1 tsp", "whole", "tbsp", "tbsp", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "88;Meats & Poultry;Stuffed Duck with Rice and Pistachios;Duck;1 kg;whole;Yes;90 min;1. Mix 1 cup rice, 0.25 cup pistachios, 0.25 cup raisins, and 1 tsp cinnamon. 2. Stuff 1 kg duck. 3. Roast at 375°F (190°C) for 1–1.5 hr. Serve with vegetables.;Main Dish, Luxurious;Omit pistachios;Use sunflower seeds instead of pistachios",
+    "__parsed_extra": ["Rice", "Pistachios", "Raisins", "Cinnamon", "1 cup", "0.25 cup", "0.25 cup", "1 tsp", "cup", "cup", "cup", "tsp", "Yes", "No", "No", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "89;Meats & Poultry;Beef Shawarma with Tahini and Pickles;Beef;500 g;g;Yes;45 min;1. Marinate 500 g beef with 2 tbsp olive oil, 1 tsp cumin, 1 tsp paprika, and 2 minced garlic cloves for 1 hr. 2. Grill or sear 4–5 min per side. 3. Serve in pita with 0.25 cup tahini and pickles.;Main Dish, Street Food;Use chicken;Use chicken instead of beef",
+    "__parsed_extra": ["Tahini", "Pickles", "Garlic", "Cumin", "Paprika", "Olive oil", "0.25 cup", "as needed", "2 cloves", "1 tsp", "1 tsp", "2 tbsp", "cup", "as needed", "cloves", "tsp", "tsp", "tbsp", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "90;Meats & Poultry;Chicken Shawarma with Garlic Sauce;Chicken;500 g;g;Yes;45 min;1. Marinate 500 g chicken with 2 tbsp olive oil, 1 tsp cumin, 1 tsp paprika, and 2 minced garlic cloves for 1 hr. 2. Grill or sear 4–5 min per side. 3. Mix 0.25 cup yogurt with 2 minced garlic cloves for sauce. Serve in pita.;Main Dish, Street Food;Use low-fat yogurt;Use chicken thighs",
+    "__parsed_extra": ["Yogurt", "Garlic", "Cumin", "Paprika", "Olive oil", "0.25 cup", "4 cloves", "1 tsp", "1 tsp", "2 tbsp", "cup", "cloves", "tsp", "tsp", "tbsp", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "91;Meats & Poultry;Kofta Kebabs with Sumac and Yogurt Sauce;Ground beef;500 g;g;Yes;30 min;1. Mix 500 g ground beef, 1 chopped onion, 1 tsp sumac, and 1 tsp cumin; form kebabs. 2. Grill 4–5 min per side. 3. Mix 0.5 cup yogurt with 2 minced garlic cloves. Serve with pita.;Main Dish, Grilled;Use ground turkey;Use ground chicken",
+    "__parsed_extra": ["Yogurt", "Onion", "Sumac", "Cumin", "Garlic", "0.5 cup", "1", "1 tsp", "1 tsp", "2 cloves", "cup", "whole", "tsp", "tsp", "cloves", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "92;Meats & Poultry;Grilled Chicken Wings with Harissa;Chicken wings;500 g;g;Yes;30 min;1. Marinate 500 g chicken wings with 2 tbsp harissa, 2 tbsp olive oil, and juice of 1 lemon for 1 hr. 2. Grill 5–6 min per side. Serve with yogurt dip.;Main Dish, Spicy;Use low-fat yogurt dip;Use chicken thighs",
+    "__parsed_extra": ["Harissa", "Olive oil", "Lemon", "Yogurt", "2 tbsp", "2 tbsp", "1", "as needed", "tbsp", "tbsp", "whole", "as needed", "No", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "93;Meats & Poultry;Lamb Chops with Rosemary and Garlic;Lamb chops;500 g;g;Yes;30 min;1. Marinate 500 g lamb chops with 2 tbsp rosemary, 3 minced garlic cloves, 2 tbsp olive oil, and 1 tsp salt for 1 hr. 2. Grill 3–4 min per side. Serve with vegetables.;Main Dish, Grilled;Use chicken;Use beef instead of lamb",
+    "__parsed_extra": ["Rosemary", "Garlic", "Olive oil", "Salt", "2 tbsp", "3 cloves", "2 tbsp", "1 tsp", "tbsp", "cloves", "tbsp", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "94;Meats & Poultry;Beef Ribs with Molasses and Chili;Beef ribs;500 g;g;Yes;120 min;1. Marinate 500 g beef ribs with 2 tbsp molasses, 1 tsp chili powder, and 2 minced garlic cloves for 1 hr. 2. Roast at 325°F (160°C) for 1.5–2 hr. Serve with salad.;Main Dish, Hearty;Use chicken;Use pork ribs instead of beef",
+    "__parsed_extra": ["Molasses", "Chili powder", "Garlic", "2 tbsp", "1 tsp", "2 cloves", "tbsp", "tsp", "cloves", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "95;Seafood;Sayadeya (Fish) with Rice and Caramelized Onions;Fish fillets;500 g;g;Yes;60 min;1. Caramelize 2 sliced onions in 2 tbsp olive oil. 2. Season 500 g fish with 1 tsp cumin and 1 tsp salt. 3. Sauté fish 3–4 min per side. 4. Simmer with onions, 2 chopped tomatoes, and 1 cup water for 20 min. Serve with 1 cup rice.;Main Dish, Coastal;Bake fish;Use cheaper fish",
+    "__parsed_extra": ["Rice", "Onions", "Tomato", "Cumin", "Salt", "Olive oil", "1 cup", "2", "2", "1 tsp", "1 tsp", "2 tbsp", "cup", "whole", "whole", "tsp", "tsp", "tbsp", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "96;Seafood;Grilled Fish with Chermoula;Fish fillets;500 g;g;Yes;30 min;1. Blend 0.25 cup cilantro, 2 minced garlic cloves, 1 tsp cumin, 1 tsp paprika, and 2 tbsp olive oil for chermoula. 2. Marinate 500 g fish in chermoula for 30 min. 3. Grill 3–4 min per side. Serve with salad.;Main Dish, Coastal;Reduce oil;Use cheaper fish",
+    "__parsed_extra": ["Cilantro", "Garlic", "Cumin", "Paprika", "Olive oil", "0.25 cup", "2 cloves", "1 tsp", "1 tsp", "2 tbsp", "cup", "cloves", "tsp", "tsp", "tbsp", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "97;Seafood;Shrimp Tagine with Tomatoes and Saffron;Shrimp;400 g;g;Yes;40 min;1. Sauté 2 minced garlic cloves and 2 chopped tomatoes in 1 tbsp olive oil. 2. Add 400 g shrimp, 0.25 tsp saffron, and 1 tsp cumin. 3. Simmer with 0.5 cup water for 15–20 min. Serve with couscous.;Main Dish, Coastal;Use less shrimp;Use fish instead of shrimp",
+    "__parsed_extra": ["Tomato", "Garlic", "Saffron", "Cumin", "Olive oil", "2", "2 cloves", "0.25 tsp", "1 tsp", "1 tbsp", "whole", "cloves", "tsp", "tsp", "tbsp", "Yes", "Yes", "No", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "98;Seafood;Fried Calamari with Harissa Mayo;Calamari;400 g;g;Yes;20 min;1. Slice 400 g calamari into rings. 2. Dredge in 0.5 cup flour, dip in 1 beaten egg, coat with 1 cup breadcrumbs. 3. Fry in 0.5 cup oil 2–3 min. 4. Mix 0.25 cup mayo with 1 tbsp harissa. Serve with dip.;Appetizer, Coastal;Bake calamari;Use cheaper squid",
+    "__parsed_extra": ["Breadcrumbs", "Egg", "Flour", "Mayonnaise", "Harissa", "Oil", "1 cup", "1", "0.5 cup", "0.25 cup", "1 tbsp", "0.5 cup", "cup", "whole", "cup", "cup", "tbsp", "cup", "Yes", "Yes", "Yes", "Yes", "No", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "99;Seafood;Mussels with Garlic and Parsley;Mussels;500 g;g;Yes;20 min;1. Sauté 3 minced garlic cloves in 2 tbsp olive oil. 2. Add 500 g mussels and 0.25 cup parsley, cover, and steam 5–7 min until open. 3. Serve with lemon wedges.;Appetizer, Coastal;Reduce oil;Use clams instead of mussels",
+    "__parsed_extra": ["Garlic", "Parsley", "Olive oil", "Lemon", "3 cloves", "0.25 cup", "2 tbsp", "as needed", "cloves", "cup", "tbsp", "as needed", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "100;Seafood;Fish Tagine with Potatoes and Olives;Fish fillets;500 g;g;Yes;45 min;1. Sauté 2 minced garlic cloves and 2 chopped tomatoes in 1 tbsp olive oil. 2. Add 2 cubed potatoes, 0.5 cup olives, and 500 g fish. 3. Simmer with 1 cup water and 1 tsp cumin for 20–25 min. Serve with couscous.;Main Dish, Coastal;Reduce olives;Use cheaper fish",
+    "__parsed_extra": ["Potatoes", "Olives", "Tomato", "Garlic", "Cumin", "Olive oil", "2", "0.5 cup", "2", "2 cloves", "1 tsp", "1 tbsp", "whole", "cup", "whole", "cloves", "tsp", "tbsp", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "101;Seafood;Shrimp Sayadeya with Brown Rice;Shrimp;400 g;g;Yes;60 min;1. Caramelize 2 sliced onions in 2 tbsp olive oil. 2. Sauté 400 g shrimp with 2 minced garlic cloves and 1 tsp cumin. 3. Add 2 chopped tomatoes and 1 cup water, simmer 20 min. 4. Serve with 1 cup brown rice.;Main Dish, Coastal;Use less shrimp;Use fish instead of shrimp",
+    "__parsed_extra": ["Brown rice", "Onions", "Tomato", "Garlic", "Cumin", "Olive oil", "1 cup", "2", "2", "2 cloves", "1 tsp", "2 tbsp", "cup", "whole", "whole", "cloves", "tsp", "tbsp", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "102;Seafood;Baked Fish with Tahini and Pine Nuts;Fish fillets;500 g;g;Yes;40 min;1. Season 500 g fish with 1 tsp salt and 1 tsp cumin. 2. Bake at 375°F (190°C) for 15–20 min. 3. Mix 0.25 cup tahini with 2 tbsp water and juice of 1 lemon. 4. Top fish with tahini and 0.25 cup pine nuts. Serve with salad.;Main Dish, Coastal;Omit pine nuts;Use sunflower seeds instead of pine nuts",
+    "__parsed_extra": ["Tahini", "Pine nuts", "Lemon", "Cumin", "Salt", "0.25 cup", "0.25 cup", "1", "1 tsp", "1 tsp", "cup", "cup", "whole", "tsp", "tsp", "Yes", "No", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "103;Seafood;Calamari Tagine with Tomatoes and Fennel;Calamari;400 g;g;Yes;45 min;1. Sauté 1 sliced fennel and 2 minced garlic cloves in 1 tbsp olive oil. 2. Add 400 g calamari and 2 chopped tomatoes. 3. Simmer with 1 cup water and 1 tsp cumin for 20–25 min. Serve with couscous.;Main Dish, Coastal;Reduce oil;Use squid instead of calamari",
+    "__parsed_extra": ["Fennel", "Tomato", "Garlic", "Cumin", "Olive oil", "1", "2", "2 cloves", "1 tsp", "1 tbsp", "whole", "whole", "cloves", "tsp", "tbsp", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "104;Seafood;Fish Kofta with Parsley and Lemon;Fish fillets;500 g;g;Yes;30 min;1. Blend 500 g fish with 0.25 cup parsley, 1 chopped onion, and 1 tsp cumin. 2. Form into patties. 3. Grill or fry in 1 tbsp oil 3–4 min per side. Serve with lemon wedges.;Main Dish, Coastal;Bake kofta;Use cheaper fish",
+    "__parsed_extra": ["Parsley", "Onion", "Cumin", "Lemon", "Oil", "0.25 cup", "1", "1 tsp", "as needed", "1 tbsp", "cup", "whole", "tsp", "as needed", "tbsp", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "105;Seafood;Shrimp with Garlic and Cilantro;Shrimp;400 g;g;Yes;20 min;1. Sauté 3 minced garlic cloves in 2 tbsp olive oil. 2. Add 400 g shrimp and 0.25 cup cilantro, cook 3–4 min. 3. Serve with lemon wedges.;Main Dish, Coastal;Reduce oil;Use fish instead of shrimp",
+    "__parsed_extra": ["Garlic", "Cilantro", "Olive oil", "Lemon", "3 cloves", "0.25 cup", "2 tbsp", "as needed", "cloves", "cup", "tbsp", "as needed", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "106;Vegetarian;Ta'ameya (Falafel) with Sesame and Coriander;Fava beans;2 cups;cups;Yes;30 min;1. Soak 2 cups fava beans overnight, drain. 2. Blend with 0.25 cup coriander, 1 chopped onion, 2 minced garlic cloves, and 1 tsp cumin. 3. Form into patties, coat with 0.25 cup sesame seeds. 4. Fry in 0.5 cup oil 2–3 min per side. Serve with tahini.;Street Food, Vegetarian;Bake falafel;Use chickpeas instead of fava beans",
+    "__parsed_extra": ["Coriander", "Onion", "Garlic", "Cumin", "Sesame seeds", "Oil", "0.25 cup", "1", "2 cloves", "1 tsp", "0.25 cup", "0.5 cup", "cup", "whole", "cloves", "tsp", "cup", "cup", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "107;Vegetarian;Chickpea Falafel with Parsley;Chickpeas;2 cups;cups;Yes;30 min;1. Soak 2 cups chickpeas overnight, drain. 2. Blend with 0.25 cup parsley, 1 chopped onion, 2 minced garlic cloves, and 1 tsp cumin. 3. Form into patties. 4. Fry in 0.5 cup oil 2–3 min per side. Serve with tahini.;Street Food, Vegetarian;Bake falafel;Use canned chickpeas",
+    "__parsed_extra": ["Parsley", "Onion", "Garlic", "Cumin", "Oil", "0.25 cup", "1", "2 cloves", "1 tsp", "0.5 cup", "cup", "whole", "cloves", "tsp", "cup", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "108;Vegetarian;Tamiya with Chili and Dill;Fava beans;2 cups;cups;Yes;30 min;1. Soak 2 cups fava beans overnight, drain. 2. Blend with 0.25 cup dill, 1 chopped onion, 2 minced garlic cloves, and 1 tsp chili powder. 3. Form into patties. 4. Fry in 0.5 cup oil 2–3 min per side. Serve with yogurt.;Street Food, Spicy, Vegetarian;Bake falafel;Use chickpeas instead of fava beans",
+    "__parsed_extra": ["Dill", "Onion", "Garlic", "Chili powder", "Oil", "0.25 cup", "1", "2 cloves", "1 tsp", "0.5 cup", "cup", "whole", "cloves", "tsp", "cup", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "109;Vegetarian;Eggah (Omelet) with Zucchini and Mint;Eggs;6;whole;Yes;20 min;1. Beat 6 eggs with 0.25 cup chopped mint and 1 tsp salt. 2. Sauté 1 sliced zucchini in 1 tbsp olive oil. 3. Pour eggs over zucchini, cook 5–7 min until set. Serve with bread.;Breakfast, Vegetarian;Use egg whites;Use fewer eggs",
+    "__parsed_extra": ["Zucchini", "Mint", "Olive oil", "Salt", "1", "0.25 cup", "1 tbsp", "1 tsp", "whole", "cup", "tbsp", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "110;Vegetarian;Eggah with Spinach and Feta;Eggs;6;whole;Yes;20 min;1. Beat 6 eggs with 1 tsp salt. 2. Sauté 200 g spinach until wilted. 3. Mix spinach and 0.25 cup feta into eggs. 4. Cook in 1 tbsp olive oil 5–7 min until set. Serve with bread.;Breakfast, Vegetarian;Use low-fat feta;Use cottage cheese instead of feta",
+    "__parsed_extra": ["Spinach", "Feta", "Olive oil", "Salt", "200 g", "0.25 cup", "1 tbsp", "1 tsp", "g", "cup", "tbsp", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "111;Vegetarian;Eggah with Leeks and Parsley;Eggs;6;whole;Yes;20 min;1. Beat 6 eggs with 1 tsp salt. 2. Sauté 1 sliced leek and 0.25 cup parsley in 1 tbsp olive oil. 3. Pour eggs over leeks, cook 5–7 min until set. Serve with bread.;Breakfast, Vegetarian;Reduce oil;Use onions instead of leeks",
+    "__parsed_extra": ["Leek", "Parsley", "Olive oil", "Salt", "1", "0.25 cup", "1 tbsp", "1 tsp", "whole", "cup", "tbsp", "tsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "112;Vegetarian;Beetroot Falafel with Yogurt Dip;Beetroots;2;whole;Yes;40 min;1. Roast 2 beetroots at 400°F (200°C) for 30 min, peel, and blend. 2. Mix with 1 cup soaked chickpeas, 1 chopped onion, and 1 tsp cumin. 3. Form into patties, fry in 0.5 cup oil 2–3 min per side. 4. Serve with 0.5 cup yogurt mixed with 1 minced garlic clove.;Vegetarian, Appetizer;Bake falafel;Use canned chickpeas",
+    "__parsed_extra": ["Chickpeas", "Onion", "Cumin", "Yogurt", "Garlic", "Oil", "1 cup", "1", "1 tsp", "0.5 cup", "1 clove", "0.5 cup", "cup", "whole", "tsp", "cup", "clove", "cup", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "113;Vegetarian;Falafel-Stuffed Peppers;Chickpeas;1 cup;cup;Yes;45 min;1. Soak 1 cup chickpeas overnight, drain, blend with 0.25 cup parsley, 1 chopped onion, and 1 tsp cumin. 2. Hollow out 4 bell peppers. 3. Stuff peppers with falafel mix. 4. Bake at 375°F (190°C) for 20–25 min. Serve with tahini.;Vegetarian, Main Dish;Use less stuffing;Use canned chickpeas",
+    "__parsed_extra": ["Bell peppers", "Parsley", "Onion", "Cumin", "Tahini", "4", "0.25 cup", "1", "1 tsp", "as needed", "whole", "cup", "whole", "tsp", "as needed", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "114;Vegetarian;Lentil Patties with Tomato Salsa;Lentils;1 cup;cup;Yes;40 min;1. Boil 1 cup lentils for 20 min, drain. 2. Mix with 1 chopped onion, 1 tsp cumin, and 0.25 cup parsley. 3. Form into patties, fry in 2 tbsp olive oil 3–4 min per side. 4. Serve with salsa of 2 chopped tomatoes and 1 minced garlic clove.;Vegetarian, Appetizer;Bake patties;Use canned lentils",
+    "__parsed_extra": ["Tomato", "Onion", "Parsley", "Garlic", "Cumin", "Olive oil", "2", "1", "0.25 cup", "1 clove", "1 tsp", "2 tbsp", "whole", "whole", "cup", "clove", "tsp", "tbsp", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "115;Vegetarian;Zucchini Fritters with Dill and Feta;Zucchini;2;whole;Yes;30 min;1. Grate 2 zucchini, squeeze out water. 2. Mix with 0.25 cup dill, 0.25 cup feta, 1 beaten egg, and 0.25 cup flour. 3. Form into patties, fry in 2 tbsp olive oil 3–4 min per side. 4. Serve with yogurt.;Vegetarian, Appetizer;Use low-fat feta;Use cottage cheese instead of feta",
+    "__parsed_extra": ["Dill", "Feta", "Egg", "Flour", "Yogurt", "Olive oil", "0.25 cup", "0.25 cup", "1", "0.25 cup", "as needed", "2 tbsp", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "116;Vegetarian;Chickpea and Spinach Stew;Chickpeas;1 cup;cup;Yes;Yes;40 min;1. Sauté 1 chopped onion and 2 minced garlic cloves in 1 tbsp olive oil. 2. Add 1 cup chickpeas and 200 g spinach. 3. Simmer with 2 chopped tomatoes and 1 cup water for 20–25 min. 4. Serve with bread.;Vegetarian, Main Dish;Reduce oil;Use canned chickpeas",
+    "__parsed_extra": ["Spinach", "Tomato", "Onion", "Garlic", "Olive oil", "200 g", "2", "1", "2 cloves", "1 tbsp", "g", "whole", "whole", "cloves", "tbsp", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "117;Vegetarian;Vegetarian Koshary with Quinoa;Lentils;0.5 cup;cup;Yes;60 min;1. Boil 0.5 cup lentils and 0.5 cup quinoa separately. 2. Cook 1 cup macaroni. 3. Sauté 1 chopped onion and 2 chopped tomatoes for sauce. 4. Fry 1 sliced onion until crispy. 5. Layer lentils, quinoa, macaroni, sauce, and crispy onions. Serve with hot sauce.;Street Food, Vegetarian;Use less oil for frying onions;Use rice instead of quinoa",
+    "__parsed_extra": ["Quinoa", "Macaroni", "Tomato", "Onion", "0.5 cup", "1 cup", "2", "2", "cup", "cup", "whole", "whole", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "118;Vegetarian;Roasted Cauliflower with Tahini;Cauliflower;1 head;cauliflower;Yes;40 min;1. Roast 1 head cauliflower florets at 400°F (200°C) with 2 tbsp olive oil for 25–30 min. 2. Mix 0.25 cup tahini with 2 tbsp lemon juice and 2 tbsp water. 3. Drizzle over cauliflower. 4. Serve parsley. with parsley. Serve warm.;Vegetarian, Side Dish;Reduce tahini;Use yogurt instead of tahini",
+    "__parsed_extra": ["Tahini", "Lemon juice", "Olive oil", "Parsley", "Parsley", "0.25 cup", "2 tbsp", "2 tbsp", "as needed", "as needed", "cup", "tbsp", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;unit;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "119;Vegetarian;Egyptian Hummus with Olive Oil;Chickpeas;1 cup;cup;Yes;30 min;1. Blend 1 cup chickpeas with 0.25 cup tahini, 2 tbsp tahini, 2 minced garlic, and juice of 1 lemon. 2. Add 2 tbsp olive oil and 0.25 cup water, blend until until smooth. 3. Serve Drizzle with with 1 tbsp olive oil and parsley. Serve with pita.;Dip, Vegetarian;Reduce tahini;Use canned chickpeas",
+    "__parsed_extra": ["Tahini", "Lemon", "Garlic", "Olive oil", "Parsley", "0.25 cup", "1", "1 clove", "3 tbsp", "tbsp as needed", "as needed", "cup", "whole", "clove", "tbsp", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;unit;cooking_time;cooking_steps;tags;healthier_alternative;time;cheaper_alternative": "120;Vegetarian;Hummus with Roasted Garlic;Chickpeas;1 cup;cup;Yes;40 min;1. Roast 3 garlic cloves at 400°F (200°C) for 15 min. 2. Blend garlic with with 1 cup chickpeas, 0.25 cup tahini, and juice of 1 lemon. juice of 3. Add 2 tbsp olive oil and 0.25 cup water, blend until until smooth. min. 4. Serve with pita.;Dip, Vegetarian;Reduce tahini;Use canned chickpeas",
+    "__parsed_extra": ["Tahini", "Garlic", "Lemon", "Olive oil", "0.25 cup", "3 cloves", "1", "2 tbsp", "cup", "cloves", "whole", "tbsp", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;quantity;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "121;Vegetarian;Baba Ghanoush with Pomegranate Seeds;Eggplant;2 eggplant;whole;Yes;40 min;1. Roast 2 eggplants at 400°F (200°C) for 30–35 min, peel. min 2. Blend with 0.25 cup tahini, 2 minced garlic cloves, and juice of 1 lemon. juice of 3. Top with 0.25 cup pomegranate seeds. 4. Serve with pita.;Dip, Vegetarian;Reduce tahini;Omit pomegranate seeds",
+    "__parsed_extra": ["Tahini", "Garlic", "Lemon", "Pomegranate seeds", "0.25 cup", "2 cloves", "1", "0.25 cup", "cup", "cloves", "whole", "cup", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;quantity;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "122;Vegetarian;Roasted Red Pepper Dip;Red bell peppers;3;whole;Yes;40 min;1. Roast 3 peppers at 400°F (200°C) for 25–30 min, peel. min 2. Blend with 0.25 cup walnuts, 2 minced garlic cloves, and 2 tbsp olive oil. 3. Serve with pita.;Dip, Vegetarian;Reduce walnuts;Use sunflower seeds instead of walnuts",
+    "__parsed_extra": ["Walnuts", "Garlic", "Olive oil", "0.25 cup", "2 cloves", "2 tbsp", "cup", "cloves", "tbsp", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;quantity;local;quantity;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "123;Vegetarian;Shorbet with Lentil Falafel;Lentils;1 cup;cup;Yes;45 min;1. Boil 1 cup lentils with 4 cups water for 30 min. 2. Blend 0.5 cup soaked chickpeas with 0.25 cup parsley, 1 chopped onion, and 1 tsp cumin; tsp cumin; form into patties. 3. Fry patties in 2 tbsp olive oil 2–3 min per side. min per side. 4. Serve soup with falafel on top.;Soup, Vegetarian;Soup bake falafel;Use canned chickpeas",
+    "__parsed_extra": ["Chickpeas", "Parsley", "Onion", "Cumin", "Olive oil", "0.5 cup", "0.25 cup", "1", "1 tsp", "2 tbsp", "cup", "cup", "whole", "tsp", "tbsp", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;quantity;local;quantity;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "124;Vegetarian;Vegetarian Mombar with Freekeh;Freekeh sausage casing;1 cup;cup;g;Yes;Yes;60 min;1. Mix 1 cup freekeh, 1 chopped onion, 0.25_tokenize cup parsley, and 1 tsp cumin. 2. Stuff into 500 g sausage casings. 3. Boil in water with 40–50 min. 4. Serve with with yogurt.;Vegetarian, Main Dish;Use less freekeh;Use rice instead of freekeh",
+    "__parsed_extra": ["Onion", "Parsley", "Cumin", "Yogurt", "1", "0.25 cup", "1 tsp", "as needed", "whole", "cup", "tsp", "as needed", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;quantity;local;quantity;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "125;Vegetarian;Stuffed Eggplant with Rice and Chickpeas;Eggplant;2;whole;Yes;Yes;60 min;1. Hollow out 2 eggplants. 2. Mix 0.5 cup rice, 0.5 cup chickpeas, 1 chopped tomato, and 0.25 cup parsley. 3. Stuff eggplants. 4. Simmer 30 min with 1 tbsp olive oil and water for 30 min. 5. Serve with yogurt.;Vegetarian, Main Dish, vegetarian;Reduce chickpeas;Use less rice instead instead of chickpeas",
+    "__parsed_extra": ["Rice", "Chickpeas", "Tomato", "Parsley", "Olive oil", "Yogurt", "0.5 cup", "0.5 cup", "1", "0.25 cup", "1 tbsp", "as needed", "cup", "cup", "whole", "cup", "tbsp", "as needed", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;unit;local;quantity;local;quantity;local;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "126;Vegetarian;Carrot and Coriander Fritters;Carrots;3;whole;Yes;30 min;1. Grate 3 carrots; squeeze out water. 2. Mix with 0.25 cup coriander, 0.25 cup flour, 1 beaten egg, and 1 tsp cumin. tsp cumin. 3. Form into patties, fry in 2–3 min per side. min per side. 4. Serve with yogurt dip.;Vegetarian, Appetizer;Reduce oil;Use parsley instead of coriander",
+    "__parsed_extra": ["Coriander", "Flour", "Egg", "Cumin", "Yogurt", "Oil", "0.25 cup", "0.25 cup", "1", "1 tsp", "as needed", "2 tbsp", "cup", "cup", "whole", "tsp", "as needed", "tbsp", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"]
+  },
+  {
+    "meal_id;type;title;ingredient_name;quantity;quantity;unit;local;quantity;local;quantity;local;quantity;local;cooking_time;cooking_steps;tags;healthier_alternative;cheaper_alternative": "127;Vegetarian;Spiced Roasted Pumpkin with Tahini;Pumpkin;500 g;g;Yes;Yes;40 min;1. Roast 500 g pumpkin with 2 tbsp olive oil and 1 tsp cumin at 400°F (200°C) for 25–30 min. min 2. 2. Mix 0.25 cup tahini with 2 tbsp lemon juice and 2 tbsp water. 3. Drizzle over pumpkin. 4. Serve with parsley.;Vegetarian, Side Dish;Reduce tahini;Use yogurt instead of tahini",
+    "__parsed_extra": ["Tahini", "Cumin", "Lemon", "juice", "Olive oil", "Parsley", "0.25 cup", "1 tsp", "2 tbsp", "2 tbsp", "as needed", "cup", "tsp", "tbsp", "tbsp", "as needed", "Yes", "Yes", "Yes", "Yes", "Yes"]}]
