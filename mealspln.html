@@ -1400,49 +1400,31 @@ async function fetchMealsDatabase() {
         console.log('Is array:', Array.isArray(data));
         console.log('Data length:', data?.length);
 
-        // Check if data exists and has content
-        if (!data) {
-            throw new Error('No data received from server');
-        }
-
-        // Handle different JSON structures
-        let recipesArray = [];
-        if (Array.isArray(data)) {
-            recipesArray = data;
-        } else if (data.recipes && Array.isArray(data.recipes)) {
-            recipesArray = data.recipes;
-        } else if (data.meals && Array.isArray(data.meals)) {
-            recipesArray = data.meals;
-        } else if (typeof data === 'object') {
-            const arrayKey = Object.keys(data).find(key => Array.isArray(data[key]));
-            if (arrayKey) {
-                recipesArray = data[arrayKey];
-            } else {
-                recipesArray = [data];
-            }
-        }
-
-        console.log('Recipes array to process:', recipesArray);
-        console.log('First recipe sample:', recipesArray[0]);
-
-        if (!Array.isArray(recipesArray) || recipesArray.length === 0) {
-            throw new Error('No valid recipe array found in JSON data');
+        // Check if data exists and is an array
+        if (!data || !Array.isArray(data)) {
+            throw new Error('Invalid JSON structure: Expected an array of recipes');
         }
 
         // Process recipes
-        mealsDatabase = recipesArray.map((meal, index) => {
+        mealsDatabase = data.map((meal, index) => {
             console.log(`Processing meal ${index + 1}:`, meal);
 
             let mealData = {};
-            const headerKey = Object.keys(meal).find(key => key.includes('meal_id'));
+            // Extract meal_id (handle both direct and semicolon-separated formats)
+            const headerKey = Object.keys(meal).find(key => key.includes('meal_id') || key.includes('meal_id;'));
             if (headerKey) {
-                mealData.meal_id = meal[headerKey];
+                mealData.meal_id = headerKey.includes(';') 
+                    ? headerKey.split(';')[0] 
+                    : meal[headerKey] || meal.meal_id || `recipe_${index + 1}`;
+            } else {
+                mealData.meal_id = meal.meal_id || `recipe_${index + 1}`;
             }
 
+            // Handle __parsed_extra or direct fields
             if (meal.__parsed_extra && Array.isArray(meal.__parsed_extra)) {
                 const extraData = meal.__parsed_extra;
-                mealData.type = extraData[0] ? extraData[0].trim() : 'Main Dish';
-                mealData.title = extraData[1] ? extraData[1].trim() : `Recipe ${index + 1}`;
+                mealData.type = extraData[0] ? extraData[0].trim() : meal.type || 'Main Dish';
+                mealData.title = extraData[1] ? extraData[1].trim() : meal.title || `Recipe ${index + 1}`;
                 mealData.ingredient_names = extraData[2] ? extraData[2].trim() : '';
                 mealData.quantities = extraData[3] ? extraData[3].trim() : '';
                 mealData.units = extraData[4] ? extraData[4].trim() : '';
@@ -1452,6 +1434,19 @@ async function fetchMealsDatabase() {
                 mealData.tags = extraData[8] ? extraData[8].trim() : '';
                 mealData.healthier_alternative = extraData[9] ? extraData[9].trim() : 'No healthier alternative provided';
                 mealData.cheaper_alternative = extraData[10] ? extraData[10].trim() : 'No cheaper alternative provided';
+            } else {
+                // Fallback for direct fields (if JSON doesn’t use __parsed_extra)
+                mealData.type = meal.type || 'Main Dish';
+                mealData.title = meal.title || `Recipe ${index + 1}`;
+                mealData.ingredient_names = meal.ingredient_name || '';
+                mealData.quantities = meal.quantity || '';
+                mealData.units = meal.unit || '';
+                mealData.local_flags = meal.local || '';
+                mealData.cooking_time = meal.cooking_time || '30 min';
+                mealData.cooking_steps = meal.cooking_steps || '';
+                mealData.tags = meal.tags || '';
+                mealData.healthier_alternative = meal.healthier_alternative || 'No healthier alternative provided';
+                mealData.cheaper_alternative = meal.cheaper_alternative || 'No cheaper alternative provided';
             }
 
             console.log('Extracted meal data:', mealData);
@@ -1459,16 +1454,16 @@ async function fetchMealsDatabase() {
             // Process ingredients
             let processedIngredients = [];
             if (mealData.ingredient_names && mealData.quantities && mealData.units && mealData.local_flags) {
-                const names = mealData.ingredient_names.split(',').map(s => s.trim());
-                const quantities = mealData.quantities.split(',').map(s => s.trim());
-                const units = mealData.units.split(',').map(s => s.trim());
-                const localFlags = mealData.local_flags.split(',').map(s => s.trim().toLowerCase() === 'yes');
+                const names = mealData.ingredient_names.split(',').map(s => s.trim()).filter(s => s);
+                const quantities = mealData.quantities.split(',').map(s => s.trim()).filter(s => s);
+                const units = mealData.units.split(',').map(s => s.trim()).filter(s => s);
+                const localFlags = mealData.local_flags.split(',').map(s => s.trim().toLowerCase() === 'نعم' || s.trim().toLowerCase() === 'yes');
 
                 for (let i = 0; i < names.length; i++) {
                     if (names[i]) {
                         processedIngredients.push({
                             name: names[i],
-                            quantity: quantities[i] || 1,
+                            quantity: quantities[i] || '1',
                             unit: units[i] || '',
                             local: localFlags[i] || false
                         });
@@ -1505,15 +1500,15 @@ async function fetchMealsDatabase() {
 
             const mappedMeal = {
                 id: parseInt(mealData.meal_id) || index + 1,
-                title: mealData.title || `Recipe ${index + 1}`,
+                title: mealData.title,
                 ingredients: processedIngredients,
                 cookingTime: cookingTimeMinutes,
                 cooking_steps: processedSteps,
                 tags: processedTags,
-                type: mealData.type || 'Main Dish',
+                type: mealData.type,
                 alternatives: {
-                    healthier: mealData.healthier_alternative || 'No healthier alternative provided',
-                    cheaper: mealData.cheaper_alternative || 'No cheaper alternative provided'
+                    healthier: mealData.healthier_alternative,
+                    cheaper: mealData.cheaper_alternative
                 }
             };
 
@@ -1530,8 +1525,6 @@ async function fetchMealsDatabase() {
 
         // Update meal plan and favorites to match new database
         updateMealPlanAndFavorites();
-
-        // Initialize the app with the loaded data
         initializeApp();
         console.log('App initialized successfully with meal data');
 
